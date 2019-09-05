@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MATHIEKNITS MISC SHOP</title>
+
+    <!--Vue Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="./js/miscApp.js" defer></script>
+
+    <!--JS Scripts-->
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./MKShopStyle.css" type="text/css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Lato|Open+Sans|Raleway|Roboto&display=swap" rel="stylesheet">
+
+   </head>
+
+   <body>
+
+<!-- back overlay for item views-->
+    <div class="container-fluid" id="backOverlay"></div>
+
+<!-- topNavBar -->
+    <div class="container-fluid" id="topNavBar">
+        <div class="row justify-content-center">
+            <div class="col-2 justify-content-center" id="topNavLeft">
+                <a href="./index.html"><button class="topNavLinks" id="mkBut">MATHIEKNITS</button>  <!--make this link to landing page-->
+            </div>
+
+            <div class="col justify-content-center" id="topNavMid">
+                <a href="https://www.instagram.com/mathieknits" target="_blank"><button class="topNavLinks">INSTAGRAM</button></a>
+                <a href="https://www.mathieknits.etsy.com" target="_blank"><button class="topNavLinks">&nbsp;ETSY&nbsp;</button></a>
+                <a href="https://www.facebook.com/mathieknits" target="_blank"><button class="topNavLinks">FACEBOOK</button></a>
+            </div>
+
+            <div class="col-2 justify-content-center" id="topNavRight">
+                <a href="./MK.html#subscribeCont"><button class="topNavLinks" id="conBut">SUBSCRIBE</button></a>
+            </div>
+        </div>
+    </div>
+
+<!-- logoSpace -->
+    <div class="container-fluid" id="logoSpace">
+        <div class="row justify-content-center">
+            <img src='./img/mklogoshadowdark.png' id="headerLogo">
+        </div>
+    </div>
+
+<!-- siteNav -->
+    <div class="container-fluid" id="siteNav">
+        <div class="row justify-content-center">
+            <a href="./index.html"><button class="siteNavBut">HOME<hr id="btnHr"></button></a>
+            <a href="./MKAbout.html"><button class="siteNavBut">ABOUT<hr id="btnHr"></button></a>
+            <a href="./MKShopMittens.html"><button class="siteNavBut">SHOP<hr id="btnHr"></button></a>
+            <a href="./MKMittensPortfolio.html"><button class="siteNavBut">&nbsp;&nbsp;PAST WORK&nbsp;&nbsp;<hr id="btnHr"></button></a>
+            <a href="./MKCalendar.html"><button class="siteNavBut">&nbsp;&nbsp;CALENDAR&nbsp;&nbsp;<hr id="btnHr"></button></a>
+            <a href="./MKContact.html"><button class="siteNavBut">CONTACT<hr id="btnHr"></button></a>
+        </div>
+    </div>
+
+<!-- learnMore -->
+    <div class="cotainer-fluid" id="learnMore">
+        <div class="row justify-content-center">
+            <div class="container">
+                <div class="col justify-content-center" id="learnMoreBox">
+                    <h5>↠ CURRENTLY AVAILABLE ↞</h5>
+                    <a href="./MKShopMittens.html"><button id="learnMoreBtn">MITTENS</button></a>
+                    <a href="./MKShopCowls.html"><button id="learnMoreBtn">COWLS</button></a>
+                    <a href="./MKShopHats.html"><button id="learnMoreBtn">HATS</button></a>
+                    <a href="./MKShopMisc.html"><button id="learnMoreBtn">MISC</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- shop app -->
+    <div class="container" id="miscApp">
+        <div class="row justify-content-center" >
+            <div class="col-1"></div>
+                    <div class="col justify-content-center" id="shopApp">
+                        <br>
+                        <p id="available">↠ AVAILABLE MISC ITEMS ↞</p>
+                        <hr id="availHr">
+                        <br>
+                        <div class="row justify-content-center">
+                    <div class="col" v-for="(item, index) in items"> <button class="itemBtn" v-on:click="loadItem(index), showShopItem()" >
+                        <div class="shopItems" id="itemBox" v-bind:style="{ backgroundImage: 'url(' + item.productImage + ')' }">
+                            <div class="overlay">
+                                <div class = "items"></div>
+                                <div class = "items head">
+                                    <h3>{{item.name}}</h3>
+                                        <hr>
+                                </div>
+                                <div class = "items price">
+                                    <p class = "start"></p>
+                                    <p class="new">{{item.price}}</p>
+                                </div>
+                                <div class="items cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    
+                                    <span id="textTop">CLICK FOR</span><br>
+                                    <span id="textTop">SHOP LISTING</span>
+                                
+                                </div>
+                            </div>
+                            <div class="name2">
+                                <span id="name2">↟ {{item.name}} ↟</span>
+                        </div>
+                    </div>
+
+                 </div></button>
+            </div>
+        </div>
+                    <div class="col-1"></div>
+    </div>
+
+<!--ITEM INFO POPUP -->
+<div class="container justify-content-center" id="itemInfoCont">
+    <div class="row justify-content-center">
+        <div class="col justify-content-center" id="imageSide">
+            <div class="row justify-content-center" id="itemBigImage">
+                <img v-bind:src="currentProductImage" id="bigImage">
+            </div>
+            <div class="row justify-content-center" id="itemSmallImages">
+               <div class="col justify-content-center" id="smallImageCol">
+                <img v-bind:src="productImage" v-on:click="changeToProductImageA()" id="smallImage">
+                <img v-bind:src="productImageB" v-on:click="changeToProductImageB()" id="smallImage">
+                <img v-bind:src="productImageC" v-on:click="changeToProductImageC()" id="smallImage">
+                <img v-bind:src="productImageD" v-on:click="changeToProductImageD()" id="smallImage">
+            </div>
+        </div>
+    </div>
+
+        <div class="col justify-content-center">
+            <p id="itemTitle"> {{ productName }}</p>
+
+            <p id="itemMaterials">&nbsp;Madelinetosh<br>&nbsp;{{ materials }}</p>
+
+            <p id="itemPrice">{{ price }}</p>
+
+            <p id="itemDescript"> {{descript }} </p>
+
+            <p id="size"> {{size}} </p>
+
+            <p id="care"> {{care}} </p>
+
+                <button id="toEtsy" v-on:click="addToCart()">ADD TO CART</button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col justify-content-center" id="closeShopCol">
+            <button id="closeShop" v-on:click="closeShopItem()">CLOSE WINDOW</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<br>
+<br>
+<!--take to prev/current button -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col justify-content-center" id="seeMore">
+                <hr id="availHr">
+                <h4>Want to see my previous work? Click below!</h4>
+                <a href="./MKMiscPortfolio.html"><button id="seeMoreBtn">SOLD MISC</button></a>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+
+
+    <!-- footer -->
+        <div class="container-fluid" id="footer">
+            <div class="row justify-content-center" id="footerInfo">
+                <div class="col" id="copy">
+                    <button id="modalBtn">⇄ POLICIES</button>
+                    <p>&nbsp;© EMILY MATHIESON 2016-2019</p>
+                </div>
+                <div class="col" id="socialMedia">
+                    <a href="https://www.mathieknits.etsy.com" target="_blank"><img src='./img/etsy.png' id="socialIcons"></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/mathieknits" target="_blank"><img src='./img/facebook.png' id="socialIcons"></a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/mathieknits" target="_blank"><img src='./img/instagram.png' id="socialIcons"></a>
+                </div>
+                <div class="col" id="footerImageBox">
+                <a href="./index.html"><img src='./img/mklogowhite.png' id="footerImage"></a>
+            </div>
+            </div>
+        </div>
+
+<!-- Return Policy Modal -->
+<div id="returnModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>⇄ RETURN POLICY ⇄</h1>
+    <br>
+    <p>- Items are elligible for return if: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) they are received with a structural defect &nbsp;&nbsp;&nbsp;--OR--<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) in exchange for a different available color.<br>
+        - To start a return, please email me at MATHIEKNITS@GMAIL.COM <br>
+       - All returns must be requested within 7 days of receiving your item(s).<br>
+       - Items cannot be returned if modified in any way from which you received them.<br>
+       - Original shipping costs cannot be refunded, and you must pay for return shipping fees.
+    </p>
+    <br>
+    <h1>⋉ PRIVACY POLICY ⋊</h1>
+    <p>- Your email, personal information, or any conversation is safe with me! <br>
+       - I will not sell your information or distribute your email. <br>
+       - If I wish to quote your testimonials, permission is always asked first.</p>
+       <br>
+<script src="./js/returnModal.js"></script>
+</div>
+
+    </body>
+</html>

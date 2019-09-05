@@ -1,0 +1,406 @@
+* { font-family: 'Roboto', sans-serif;}
+*:focus { outline: 0 !important;}
+
+.body { 
+	overflow-y: scroll;
+	overflow-x: hidden;
+	 }
+
+/*--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--*/
+h1 {
+	letter-spacing: 2px;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	color: black;
+	padding-top: 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+h2 {
+	font-family: Raleway;
+}
+h3 {
+	font-family: Raleway;
+	font-size: 20px;
+}
+h4 {
+	width: 740px;
+	height: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 5px;
+	background-color: #f3ede6;
+	border-radius: 2px;
+	font-family: Lato;
+	color: #484848;
+	letter-spacing: 6px;
+	font-weight: bold;
+}
+h5 {
+	letter-spacing: 2px;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+h6 {
+	letter-spacing: 3px;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 28px;
+	color: black;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+/*--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--*/
+#topNavBar {
+	height: 30px;
+	background-color: #393e41;
+	text-align: center;
+	color: white;
+	min-width: 790px;
+}
+#topNavLeft {
+	text-align: left;
+}
+#topNavMid {
+	text-align: center;
+}
+#topNavRight {
+	text-align: right;
+}
+#mkBut {
+	font-size: 12px;
+	margin: 3px 25px;
+}
+#conBut {
+	margin: 3px 25px;
+}
+.topNavLinks {
+	margin: 3px 35px;
+	background-color: #393e41;
+	color: white;
+	border: none;
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-family: Raleway;
+	border: solid 2px #393e41;
+	transition: 0.7s ease all;
+	font-weight: bold;
+}
+.topNavLinks:hover {
+	cursor: pointer;
+	color: silver;
+}
+
+/*--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--*/
+#logoSpace {
+	background-color: #F2F3EB;
+	height: 280px;
+}
+#headerLogo {
+	padding-top: 70px;
+}
+/*--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--*/
+#siteNav {
+	background-color: white;
+	height: 40px;
+	padding-bottom: 35px;
+}
+.siteNavBut {
+	margin-left: 45px;
+	background-color: white;
+	font-size: 13px;
+	font-family: Raleway;
+	font-weight: bold;
+	border: none;
+	width: 130px;
+	letter-spacing: 2px;
+	padding: 5px;
+	line-height: 25px;
+}
+#btnHr {
+	height:2px; 
+	border:none; 
+	background-color: #c2bab0; 
+	width: 60%; 
+	text-align:center; 
+	margin: auto;
+	transition: 0.4s ease all;
+}
+.siteNavBut:hover {
+	cursor: pointer;
+}
+.siteNavBut:hover #btnHr {
+	width: 85%;
+	background-color:black; 
+}
+
+/*--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--*/
+#learnMore {
+	background-image: url('./img/catch1.jpg');
+	height: 330px;
+	width: 100%;
+	overflow: hidden;
+}
+#learnMoreBox {
+	background-color: #F2F3EB;
+	width: 660px;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 65px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 4px #393e41;
+	-webkit-animation: smooth 0.6s ease-in;
+	border: solid 2px #e1dad0;
+}
+@-webkit-keyframes smooth {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+#learnMoreBox p {
+		font-family: 'Lato';
+		font-size: 16px;
+		line-height: 28px;
+}
+#learnMoreBtn {
+		font-family: 'Lato';
+		font-size: 16px;
+		font-weight: bold;
+		background-color: #393e41;	
+		color: white;
+		border: solid 2px #393e41;
+		height: 45px;
+		width: 120px;
+		letter-spacing: 3px;
+		transition: all 0.6s;
+		margin-left: 20px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+}
+#learnMoreBtn:hover {
+	box-shadow: inset 0 55px white;
+	border: solid 2px #e1dad0;
+	color: #393e41;
+	cursor: pointer; 
+}
+
+/*--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP--SOLD APP*/
+#soldTitle {
+	letter-spacing: 2px;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 32px;
+	color: black;
+	padding-top: 20px;
+	border-radius: 2px;
+	text-align: center;	
+	line-height: 50px;
+}
+#soldHr {
+	height:3px; 
+	border:none; 
+	background-color: dimgrey; 
+	width: 80%; 
+	text-align:center; 
+	margin: auto;
+}
+#soldApp {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 1;
+}
+#name2 {
+	font-family: Raleway;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 35px;
+	transition: all ease 0.4s;
+}
+.soldItems {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: black;
+  background-size: cover;
+  box-shadow: 3px 3px 6px #bcb09e;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background: rgba(88, 88, 88, .6);
+  color: #fef5df;
+  opacity: 0;
+  transition: all 0.5s;	
+  border-radius: 3px;
+}
+.cart {
+  opacity: 0;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  transform: translateY(40px);
+  transition: all 0.7s;
+  font-size: 13px;
+}
+.soldItems:hover .overlay { 
+  opacity: 01;
+}
+.soldItems:hover .overlay .cart {
+  transform: translateY(-16px);
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+.soldItems .overlay .cart #textTop {
+	font-size: 12px;
+	font-family: Raleway;
+}
+#seeMore {
+	text-align: center;
+}
+#seeMoreBtn {
+	font-family: 'Lato';
+	font-size: 16px;
+	background-color: #f3ede6;	
+	color: #484848;
+	border: solid 2px #f3ede6;
+	height: 40px;
+	width: 290px;
+	letter-spacing: 4px;
+	transition: all 0.6s;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+#seeMoreBtn:hover {
+	box-shadow: inset 0 45px #4a4948;
+	border: solid 2px #4a4948;
+	color: white;
+	cursor: pointer; 
+}
+
+/*--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER*/
+#footer {
+	height: 150px;
+	background-color: #484848;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 0;
+	padding-top: 20px;
+	justify-content: center;
+	background-size:cover;
+	padding-bottom: 0px;
+	color: WhiteSmoke;
+	letter-spacing: 1px;
+	text-align: left;
+	font-size: 14px;
+}
+#copy{
+	margin: auto;
+	padding-top: 20px;
+}
+#socialMedia {
+	margin: auto;
+	text-align: center;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+#socialIcons:hover{
+	transition: 0.6s;
+	transform: translatey(-4px);
+}
+#footerImage {
+	width: 320px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+#footerImageBox {
+	text-align: center;
+	padding-top: 10px;
+}
+#footerInfo {
+	padding-left: 110px;
+	padding-right: 70px;
+}
+
+/* --MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #888;
+  width: 70%;
+  height: 488px;
+}
+.modal-content p {
+	padding-left: 120px;
+	font-size: 14px;
+}
+.modal-content h1 {
+	text-align: center;
+	padding-left: 10px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#modalBtn {
+	background: #484848;
+	color: white;
+	border: none;
+}
+#modalBtn:hover {
+	color: silver;
+	cursor: pointer;
+}
