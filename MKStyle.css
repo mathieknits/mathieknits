@@ -38,10 +38,23 @@ h4 {
 }
 
 /*--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--*/
+@media only screen and (min-width: 500px) {   /*hides top nav items in phone and tab*/
+	#topNavBar {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#topNavBar {
+		display: inline-block;
+	}
+}
+
 #topNavBar {
 	background-color: #393e41;
 	text-align: center;
 	color: white;
+	padding-bottom: 3px;
 }
 #topNavLeft {
 	text-align: left;
@@ -54,7 +67,7 @@ h4 {
 }
 
 .topNavLinks {
-	/*margin: 3px 18px;*/
+	margin: auto;
 	background-color: #393e41;
 	color: white;
 	border: none;
@@ -80,6 +93,17 @@ h4 {
 }
 
 /*--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--*/
+@media only screen and (min-width: 500px) {    /*hides site nav items in phone and tab*/
+	#siteNav, .siteNavBut, #btnHr {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#siteNav, .siteNavBut, #btnHr {
+		display: block;
+	}
+}
 #siteNav {
 	background-color: white;
 }
@@ -180,7 +204,7 @@ h4 {
 		font-size: 1em;
 		font-weight: bold;
 		background-color: #393e41;	
-		color: blue;
+		color: white;
 		border: solid 2px #393e41;
 		padding: 10px;
 		letter-spacing: 3px;

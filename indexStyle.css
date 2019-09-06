@@ -1,23 +1,33 @@
 body {
-		background-image: url('./img/home.jpg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		overflow-y: hidden;
-		overflow-x:hidden;
-		
+		background-color: black;
+		overflow: hidden;
+}
+
+#backgroundImage {
+	background-image: url('./img/home.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-animation: bk 0.5s ease-in;
+
 }
 *:focus { outline: 0 !important;}
 
-#logo {
-	-webkit-animation: logo 0.8s ease-in;
 
+@-webkit-keyframes bk {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+#logo {
+	-webkit-animation-delay: 2s;
+	-webkit-animation: logo 1s ease-in;
 }
 
 
 @media only screen and (min-width: 600px) {
-	body {
-		background-color: black;
+	#backgroundImage {
 		background-position: 40% 65%;
+		height: 1700px;
 	}
 	#logo {
 		padding-left: 2.5vw;
@@ -38,7 +48,7 @@ body {
 }
 
 @media only screen and (min-width: 1000px) {
-	body {
+	#backgroundImage {
 		background-position: 40% 50%;
 	}
 	#logo {
@@ -62,9 +72,11 @@ body {
 }
 
 @-webkit-keyframes logo {
-    0% { opacity: 0;}
+    0% { opacity: 0.5;}
     100% { opacity: 1;}
 }
+
+
 
 .btn1 {
   	background: rgba(0,0,0,.5);
@@ -92,7 +104,7 @@ body {
 }
 
 #socialIcons {
-	-webkit-animation: smooth 1.5s ease-in;
+	-webkit-animation: smooth 1s ease-in;
 	opacity: 0.7;
 }
 @-webkit-keyframes smooth {
