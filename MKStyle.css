@@ -187,8 +187,8 @@ h4 {
 		background-color: #393e41;	
 		color: white;
 		border: solid 2px #393e41;
-		height: 35px;
-		width: 150px;
+		height: 1vw;
+		width: 4vw;
 		letter-spacing: 3px;
 		transition: all 0.6s;
 }
