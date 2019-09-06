@@ -10,9 +10,9 @@ h1 {
 	letter-spacing: 3px;
 	font-family: Raleway;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 2.2em; /*36px*/
 	color: black;
-	padding-top: 20px;
+	padding-top: 0.5vw;
 	border-radius: 2px;
 	text-align: center;
 }
@@ -21,28 +21,27 @@ h2 {
 }
 h3 {
 	font-family: Raleway;
-	font-size: 15px;
+	font-size: 0.5em; /*15px*/
     font-weight: bold;
 }
+
 h4 {
 	letter-spacing: 2px;
 	font-family: Raleway;
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 1.8em; /*26px*/
 	color: black;
-	padding-top: 12px;
-	padding-bottom: 5px;
+	padding-top: 0.5vw;
+	padding-bottom: 0.5vw;
 	border-radius: 2px;
 	text-align: center;
 }
 
 /*--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--TOP NAV--*/
 #topNavBar {
-	height: 30px;
 	background-color: #393e41;
 	text-align: center;
 	color: white;
-	min-width: 790px;
 }
 #topNavLeft {
 	text-align: left;
@@ -54,18 +53,18 @@ h4 {
 	text-align: right;
 }
 #mkBut {
-	font-size: 12px;
-	margin: 3px 25px;
+	font-size: 0.8em;
+	margin: 3px 10px;
 }
 #conBut {
 	margin: 3px 25px;
 }
 .topNavLinks {
-	margin: 3px 35px;
+	margin: 3px 25px;
 	background-color: #393e41;
 	color: white;
 	border: none;
-	font-size: 12px;
+	font-size: 0.8em;
 	letter-spacing: 4px;
 	font-family: Raleway;
 	border: solid 2px #393e41;
@@ -89,25 +88,23 @@ h4 {
 /*--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--SITE NAV--*/
 #siteNav {
 	background-color: white;
-	height: 40px;
 }
 .siteNavBut {
-	margin-left: 45px;
+	margin-left: 1.5vw;
 	background-color: white;
-	font-size: 13px;
+	font-size: 0.8em;
 	font-family: Raleway;
 	font-weight: bold;
 	border: none;
-	width: 130px;
+	width: 140px;
 	letter-spacing: 2px;
-	padding: 5px;
-	line-height: 25px;
+	padding: 8px;
 }
 #btnHr {
 	height:2px; 
 	border:none; 
 	background-color: #c2bab0; 
-	width: 60%; 
+	width: 70%; 
 	text-align:center; 
 	margin: auto;
 	transition: 0.4s ease all;
@@ -121,36 +118,67 @@ h4 {
 }
 
 /*--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--LEARN MORE BOX--*/
-#learnMore {
+
+/*FOR PHONE*/
+@media only screen and (min-width: 500px) {
+  #learnMore {
 	background-image: url('./img/catch1.jpg');
-	height: 330px;
+	height: 32vw;
 	width: 100%;
 	overflow: hidden;
 }
 #learnMoreBox {
 	background-color: #F2F3EB;
-	width: 420px;
+	width: 50vw;
 	text-align: center;
 	margin: auto;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	top: 65px;
-	padding-top: 25px;
-	padding-bottom: 15px;
+	top: 5.5vw;
+	padding-top: 2.5vw;
+	padding-bottom: 2.5vw;
 	border-radius: 2px;
 	box-shadow: 2px 2px 4px #393e41;
 	-webkit-animation: smooth 0.6s ease-in;
 	border: solid 2px #e1dad0;
 }
+}
+
+/*FOR DESKTOP*/
+@media only screen and (min-width: 1000px) {
+  #learnMore {
+	background-image: url('./img/catch1.jpg');
+	height: 24vw;
+	width: 100%;
+	overflow: hidden;
+}
+#learnMoreBox {
+	background-color: #F2F3EB;
+	width: 36vw;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: 4.5vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border-radius: 2px;
+	box-shadow: 2px 2px 4px #393e41;
+	-webkit-animation: smooth 0.6s ease-in;
+	border: solid 2px #e1dad0;
+}
+}
+
 @-webkit-keyframes smooth {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
 #learnMoreBox p {
 		font-family: 'Lato';
-		font-size: 16px;
-		line-height: 28px;
+		font-size: 1.7;
+		line-height: 22px;
 }
 #learnMoreBtn {
 		font-family: 'Lato';
@@ -210,11 +238,42 @@ h4 {
   box-shadow: 2px 2px 4px #a4a5a0;
 }
 
+@media only screen and (min-width: 500px) {
+	.newArrivals {
+		width: 170px;
+  		height: 170px;
+  	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.newArrivals {
+		width: 165px;
+  		height: 165px;
+  	}
+}
+
 #nA1 { background: url("./img/naolingo.jpg");}
 #nA2 { background: url("./img/nazion.jpg");}
 #nA3 { background: url("./img/nawinterberry.jpg");}
 #nA4 { background: url("./img/nawoodland.jpg");}
 #nA5 { background: url("./img/nagrizzlybear.jpg");3}
+
+@media only screen and (min-width: 500px) {
+	#nA4 {
+		display: none;
+	}
+	#nA5 {
+		display: none;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	#nA4 {
+		display: inline-block;
+	}
+	#nA5 {
+		display: inline-block;
+	}
+}
 
 #new {
 	width: 78%;
@@ -326,49 +385,62 @@ h4 {
 }
 #calTitle {
 	text-align: center;
-	height: 70px;
 	margin-bottom: 30px;
 }
+#eventHr {
+	width: 60%;
+	border: solid 1px black;
+}
+@media only screen and (min-width: 500px) {
+	#dates{
+		font-size: 1.1em;
+	}
+}
+@media only screen and (min-width: 1000px) {
+	#dates {
+		font-size: 1em;
+	}
+}
+
 #dates {
 	text-align: left;
 	font-family: Lato;
-	font-size: 16px;
-	padding-left: 40px;
-	padding-right: 30px;
-	margin-bottom: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1.2em;
 }
 #datesOld {
 	font-family: Lato;
-	font-size: 16px;
+	font-size: 1em;
 	text-align: left;
 	text-decoration: line-through;
-	padding-left: 40px;
-	padding-right: 30px;
-	margin-bottom: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1.2em;
 }
 #calHead {
 	text-align: center;
 	font-family: Raleway;
-	font-size: 22px;
+	font-size: 1.5em;
 	font-weight: bold;
-	margin-top: 15px;
+	margin-top: 1em;
 }
 #calLeftCol {
 	border: solid 2px black;
-	margin-right: 20px;
+	margin-right: 1em;
 	box-shadow: 1px 1px 2px #a4a5a0;
 }
 #calRightCol {
 	border: solid 2px black;
-	margin-left: 20px;
+	margin-left: 1em;
 	box-shadow: 1px 1px 2px #a4a5a0;
 }
 #tentative {
 	text-align: center;
 	font-family: Raleway;
-	font-size: 18px;
+	font-size: 1.2em;
 	font-weight: bold;
-	margin: 10px 10px;
+	margin-bottom: 20px;
 }
 
 /*SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--SHOP BOX CSS--*/	
@@ -503,24 +575,22 @@ h4 {
 /*SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--SUBSCRIBE CSS--*/
 #subscribeCont {
 	background-color: #F2F3EB;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
 }
 #subscribe {
 	text-align: center;
 	border-radius: 3px;
-	height: 250px;
 	bottom: 0;
 	right: 0;
 	left: 0;
 	top: 0;
 	background: url(./img/subscribe.jpg);
-	padding: 10px;
+	padding: 1vw;
 	justify-content: center;
 	background-size:cover;
-	height: 230px;
 	box-shadow: 2px 2px 4px #a4a5a0;
-	width: 900px;
+	width: 70vw;
 }
 #subscribe h2 {
 	color: white;
@@ -529,23 +599,22 @@ h4 {
 	background-attachment: fixed;
 	background-size:cover;
 	letter-spacing: 3px;
-	font-size: 38px;
+	font-size: 2.3em;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px black;
 }
 #subscribe p {	
-	margin: 4px 0 20px 0;
-	font-size: 17px;
+	font-size: 1.1em;
 	color: white;
 	text-shadow: 2px 2px 4px black;
 }
 #subscribe input {
-	width: 220px;
+	width: 18vw;
 	display: inline-block;
 	text-align: center;
-	border-radius: 7px;
+	border-radius: 5px;
 	background: #eee;
-	padding: 12px 10px;
+	padding: 0.8vw;
 	outline: none;
 	border: none;
 	color: #222;
@@ -557,14 +626,14 @@ h4 {
 	background-color: #e27458;
 	box-shadow: 2px 2px 5px black;
 	font-family: 'Lato', sans-serif;
-	padding: 8px 15px;
-	letter-spacing: 1px;
-	margin: 10px 0 0 0;
+	padding: 1vw 1.3vw;
+	letter-spacing: 2px;
+	margin: 1vw 0 0.7vw 0;
 	border-radius: 3px;
-	font-size: 10px;
+	font-size: 1em;
 	cursor: pointer;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 0.8em;
 	outline: none;
 	border: none;
 	transition: 0.3s linear;
@@ -574,7 +643,6 @@ h4 {
 
 /*--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER*/
 #footer {
-	height: 150px;
 	background-color: #484848;
 	text-align: center;
 	margin: auto;
@@ -591,32 +659,56 @@ h4 {
 	text-align: left;
 	font-size: 14px;
 }
+/*FOR PHONE*/
+@media only screen and (min-width: 500px) {
+	#footer {
+		height: 17vw;
+}
+	#footerImageBox {
+		padding-top: 3vw;
+	}
+	#copy {
+		padding-top: 2.8vw;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#footer {
+		height: 12vw;
+}
+	#footerImageBox {
+		padding-top: 0.2vw;
+	}
+	#copy {
+		padding-top: 2.0vw;
+	}
+}
+
 #copy{
 	margin: auto;
-	padding-top: 20px;
+	font-size: 1.1em;
 }
 #socialMedia {
 	margin: auto;
 	text-align: center;
-	padding-right: 40px;
-	padding-top: 20px;
+	padding-top: 2vw;
+	padding-right: 4vw;
 }
 #socialIcons:hover{
 	transition: 0.6s;
 	transform: translatey(-4px);
 }
 #footerImage {
-	width: 320px;
-	margin-right: 10px;
-	margin-left: 20px;
+	width: 90%;
+
 }
 #footerImageBox {
 	text-align: center;
-	padding-top: 10px;
+	padding-right: 3vw;
+
 }
 #footerInfo {
-	padding-left: 110px;
-	padding-right: 70px;
+	padding-left: 3vw;
 }
 
 /* --MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL */

@@ -1,43 +1,89 @@
 body {
-		background-image: url('./img/home1.jpg');
+		background-image: url('./img/home.jpg');
+		background-attachment: fixed;
 		background-repeat: no-repeat;
 		overflow-y: hidden;
 		overflow-x:hidden;
+		
 }
 *:focus { outline: 0 !important;}
 
 #logo {
-	padding-left:90px;
-	padding-top:50px;
 	-webkit-animation: logo 0.8s ease-in;
+	width: 50vw;
 }
+
+
+@media only screen and (min-width: 600px) {
+	body {
+		background-color: black;
+		background-image: url('./img/home.jpg');
+		background-position: 40% 65%;
+	}
+	#logo {
+		padding-left: 2.5vw;
+		padding-top: 8vw;
+	}
+	#button {
+		padding-left: 6vw;
+		padding-top: 12vw;
+	}
+	.btn1 {
+		height: 8.5vw;
+		width: 25vw;
+		font-size: 2.1em;
+	}
+	#homeSocial {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	body {
+		background-position: 40% 50%;
+		background-image: url('./img/home.jpg');
+	}
+	#logo {
+		padding-left: 2vw;
+		padding-top: 3vw;
+	}
+	#button {
+		padding-left: 4vw;
+		padding-top: 18vw;
+	}
+	.btn1 {
+		height: 3.5vw;
+		width: 14vw;
+		font-size: 1.3em;
+	}
+	#homeSocial {
+		padding-top: 4vw;
+		padding-left: 5vw;
+		display: inline-block;
+	}
+}
+
 @-webkit-keyframes logo {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
-#button {
-	padding-left: 100px;
-	padding-top: 190px;
-}
+
 .btn1 {
   	background: rgba(0,0,0,.5);
   	color: WhiteSmoke;
   	text-align: center;
-  	height: 50px;
-  	width: 175px;
   	transition: all ease 0.5s;
   	cursor: pointer;
 	font-family: 'Roboto';
-	font-size: 20px;
 	letter-spacing: 4px;
 	border: rgba(255,255,255,.8) 2px solid;
 	border-radius: 3px;
-	padding-top: 5px;
+	margin:auto;
 	font-family: 'Hammersmith One';
 	-webkit-animation: button 1.2s ease-in;
 }
 .btn1:hover {
-  	box-shadow: inset 0 50px WhiteSmoke;
+  	box-shadow: inset 0 60px WhiteSmoke;
   	color: black;
   	border: rgba(255,255,255,1) 2px solid;
   	font-weight: bold;
@@ -46,10 +92,7 @@ body {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
-#homeSocial {
-	padding-top: 80px;
-	padding-left: 100px;
-}
+
 #socialIcons {
 	-webkit-animation: smooth 1.5s ease-in;
 	opacity: 0.7;
