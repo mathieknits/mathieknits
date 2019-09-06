@@ -52,13 +52,7 @@ h4 {
 #topNavRight {
 	text-align: right;
 }
-#mkBut {
-	font-size: 0.8em;
-	margin: 3px 10px;
-}
-#conBut {
-	margin: 3px 10px;
-}
+
 .topNavLinks {
 	margin: 3px 25px;
 	background-color: #393e41;
