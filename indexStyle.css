@@ -17,7 +17,6 @@ body {
 @media only screen and (min-width: 600px) {
 	body {
 		background-color: black;
-		background-image: url('./img/home.jpg');
 		background-position: 40% 65%;
 	}
 	#logo {
@@ -41,7 +40,6 @@ body {
 @media only screen and (min-width: 1000px) {
 	body {
 		background-position: 40% 50%;
-		background-image: url('./img/home.jpg');
 	}
 	#logo {
 		padding-left: 2vw;
