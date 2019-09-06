@@ -57,7 +57,7 @@ h4 {
 	margin: 3px 10px;
 }
 #conBut {
-	margin: 3px 25px;
+	margin: 3px 10px;
 }
 .topNavLinks {
 	margin: 3px 25px;
@@ -175,6 +175,7 @@ h4 {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
+
 #learnMoreBox p {
 		font-family: 'Lato';
 		font-size: 1.7;
