@@ -42,11 +42,17 @@ h4 {
 	#topNavBar {
 		display: none;
 	}
+	#mobileMenu {
+		display: block;
+	}
 }
 
 @media only screen and (min-width: 1000px) {
 	#topNavBar {
 		display: inline-block;
+	}
+	#mobileMenu {
+		display: none;
 	}
 }
 
@@ -771,4 +777,143 @@ h4 {
 #modalBtn:hover {
 	color: silver;
 	cursor: pointer;
+}
+
+/*--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--*/
+nav {
+    background: white;
+    color: #1d1f20;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*** INPUT ***/
+nav input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/*** LABEL ***/
+nav label {
+    cursor: pointer;
+    display: block;
+    font-family: Raleway;
+    font-size: 1.4em;
+    padding: 1vw;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+/* Hamburger Icon */
+#menu-icon,
+#menu-icon:before,
+#menu-icon:after {
+    background: #1d1f20;
+    border-radius: 0.05em;
+    height: 0.2em;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+
+#menu-icon {
+    display: inline-block;
+    margin-top: 0.2em;
+    max-width: 1em;
+    position: relative;
+}
+
+nav label #menu-icon {
+    float: right;
+
+}
+
+#menu-icon:before,
+#menu-icon:after {
+    content: '';
+    left: 0;
+    position: absolute;
+}
+
+#menu-icon:before {
+    top: -0.4em;
+}
+
+#menu-icon:after {
+    bottom: -0.4em;
+}
+
+/* Close Icon */
+nav input[type=checkbox]:checked + label #menu-icon {
+    background: transparent;
+}
+
+nav input[type=checkbox]:checked + label #menu-icon:before {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+nav input[type=checkbox]:checked + label #menu-icon:after {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+
+/*** MENU ***/
+/* Overlay */
+nav input:checked ~ #overlay {
+    background: #F2F3EB;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+/* List */
+nav ul {
+    font-size: 1.5em;
+    list-style: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
+
+nav input:checked ~ ul {
+    margin: 1em;
+    max-height: inherit;
+    opacity: 1;
+}
+
+nav ul > li {
+    margin: 0.5em 0;
+}
+
+nav ul a {
+    color: #1d1f20!important;
+    text-decoration: none;
+}
+
+.mobileNavBtn {
+	background: none;
+	border: none;
+	letter-spacing: 1px;
+	margin: 1.5vw;
+	font-family: Raleway;
+}
+
+/* Social Media */
+nav ul#social-media > li {
+    display: inline-block;
+    margin: 0.5em;
 }
