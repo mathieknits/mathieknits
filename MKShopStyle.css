@@ -533,7 +533,6 @@ h5 {
 
 /*--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER*/
 #footer {
-	height: 150px;
 	background-color: #484848;
 	text-align: center;
 	margin: auto;
@@ -550,32 +549,56 @@ h5 {
 	text-align: left;
 	font-size: 14px;
 }
+/*FOR PHONE*/
+@media only screen and (min-width: 500px) {
+	#footer {
+		height: 17vw;
+}
+	#footerImageBox {
+		padding-top: 3vw;
+	}
+	#copy {
+		padding-top: 2.8vw;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	#footer {
+		height: 12vw;
+}
+	#footerImageBox {
+		padding-top: 0.2vw;
+	}
+	#copy {
+		padding-top: 2.0vw;
+	}
+}
+
 #copy{
 	margin: auto;
-	padding-top: 20px;
+	font-size: 1.1em;
 }
 #socialMedia {
 	margin: auto;
 	text-align: center;
-	padding-right: 40px;
-	padding-top: 20px;
+	padding-top: 2vw;
+	padding-right: 4vw;
 }
 #socialIcons:hover{
 	transition: 0.6s;
 	transform: translatey(-4px);
 }
 #footerImage {
-	width: 320px;
-	margin-right: 10px;
-	margin-left: 20px;
+	width: 90%;
+
 }
 #footerImageBox {
 	text-align: center;
-	padding-top: 10px;
+	padding-right: 3vw;
+
 }
 #footerInfo {
-	padding-left: 110px;
-	padding-right: 70px;
+	padding-left: 3vw;
 }
 
 /* --MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL--MODAL */

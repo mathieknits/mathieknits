@@ -56,7 +56,6 @@ h4 {
 	}
 }
 
-
 #topNavBar {
 	height: 30px;
 	background-color: #393e41;
@@ -112,15 +111,14 @@ h4 {
 	#siteNav, .siteNavBut, #btnHr {
 		display: none;
 	}
-	
 }
 
 @media only screen and (min-width: 1000px) {
 	#siteNav, .siteNavBut, #btnHr {
 		display: block;
 	}
-
 }
+
 #siteNav {
 	background-color: white;
 }
