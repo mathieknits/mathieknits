@@ -90,7 +90,7 @@ body {
 	-webkit-animation: button 2.5s ease-in;
 }
 .btn1:hover {
-  	box-shadow: inset 0 60px WhiteSmoke;
+  	box-shadow: inset 0 100px WhiteSmoke;
   	color: black;
   	border: rgba(255,255,255,1) 2px solid;
   	font-weight: bold;
