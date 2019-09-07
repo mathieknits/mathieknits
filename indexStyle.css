@@ -7,7 +7,7 @@ body {
 	background-image: url('./img/home.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	-webkit-animation: bk 2s ease-in;
+	-webkit-animation: bk 4s ease-in;
 
 }
 *:focus { outline: 0 !important;}
@@ -19,14 +19,14 @@ body {
 }
 
 #logo {
-	-webkit-animation: logo 2s ease-in;
+	-webkit-animation: logo 4s ease-in;
 }
 
 
 @media only screen and (min-width: 600px) {
 	#backgroundImage {
 		background-position: 40% 65%;
-		height: 1700px;
+		height: 1500px;
 	}
 	#logo {
 		padding-left: 2.5vw;
