@@ -802,11 +802,12 @@ nav label {
     cursor: pointer;
     display: block;
     font-family: Raleway;
-    font-size: 1.4em;
+    font-size: 2em;
     padding: 1vw;
     font-weight: bold;
     line-height: 15px;
-    margin-top: 10px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
 }
 
 /* Hamburger Icon */
@@ -822,9 +823,9 @@ nav label {
 
 #menu-icon {
     display: inline-block;
-    margin-top: 0.2em;
-    max-width: 1em;
+    max-width: 1.5em;
     position: relative;
+
 }
 
 nav label #menu-icon {
@@ -910,6 +911,7 @@ nav ul a {
 	letter-spacing: 1px;
 	margin: 1.5vw;
 	font-family: Raleway;
+	font-size: 1.2em;
 }
 
 /* Social Media */
