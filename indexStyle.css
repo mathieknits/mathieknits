@@ -7,7 +7,7 @@ body {
 	background-image: url('./img/home.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	-webkit-animation: bk 4s ease-in;
+	-webkit-animation: bk 3s ease-in;
 
 }
 *:focus { outline: 0 !important;}
@@ -19,7 +19,7 @@ body {
 }
 
 #logo {
-	-webkit-animation: logo 4s ease-in;
+	-webkit-animation: logo 3s ease-in;
 }
 
 
