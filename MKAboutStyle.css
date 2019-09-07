@@ -51,7 +51,7 @@ h4 {
 }
 
 #new {
-	width: 78%;
+	width: 68%;
 	border: solid 1px black;
 }
 
@@ -255,17 +255,9 @@ h4 {
 
 /*--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT--ABOUT---ABOUT---ABOUT---ABOUT---ABOUT--*/
 #threeImage {
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 220px;
-	height: 220px;
 	box-shadow: 2px 2px 4px #a4a5a0;
-	margin-bottom: 20px;
-}
-
-#mkRow {
-	width: 90%;
-	margin: auto;
+	margin: 20px;
+	margin-top: 10px;
 }
 
 @media only screen and (min-width: 500px) {   
@@ -274,10 +266,16 @@ h4 {
 	height:160px;
 	}
 	#mkImage {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 20px;
+	margin-top: 10px;
 	height: 160px;
 	box-shadow: 2px 2px 4px #a4a5a0;
+	}
+	#threeImage {
+		width: 180px;
+		height: 180px;
+		
+	}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -286,25 +284,31 @@ h4 {
 	height:220px;
 	}
 	#mkImage {
-	margin-left: 30px;
-	margin-right: 30px;
+	margin: 20px;
+	margin-top: 10px;
 	width: 220px;
 	height: 220px;
 	box-shadow: 2px 2px 4px #a4a5a0;
 	}
+	#threeImage {
+		width: 200px;
+		height: 200px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 }
 
-
-#logo {
-	width: 200px;
-}
-#logoBox {
-	justify-content: center;
-}
 #infoP {
 	text-align: left;
 	font-family: 'Open Sans';
 	color: black;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+#matsP {
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 @media only screen and (min-width: 500px) {   
@@ -314,77 +318,24 @@ h4 {
 @media only screen and (min-width: 1000px) {   
 	#infoP {font-size: 0.9em;}
 }
-
-#aboutMK {
-	background-color: white;
-	text-align: right;
-	margin: auto;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	top: 0;
-	padding-top: 20px;
-	padding-bottom: 70px;
-}
 #aboutTitle {
 	text-align: center;
 	height: 70px;
 	margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 500px) {   
-	#aboutLeftCol {
-		padding-top: 20px;
-		margin-top: 30px;
-		margin-right: 25px;
-		padding-left: 20px;
-	}
-	#aboutRightCol {
-		padding-top: 20px;	
-		margin-top: 30px;
-		margin-left: 25px;
-		padding-left: 20px;
-		padding-bottom: 20px;
-	}
-}
-
-@media only screen and (min-width: 1000px) {
-	#aboutLeftCol {
-		padding-top: 20px;
-		margin-top: 30px;
-		margin-right: 20px;
-		padding-left: 20px;
-	}
-	#aboutRightCol {
-		padding-top: 20px;	
-		margin-top: 30px;
-		margin-left: 20px;
-		padding-left: 20px;
-		padding-bottom: 20px;
-	}
-}
-
-
-#aboutLeftCol {
-	border: solid 2px #e1dad0;
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
-#aboutRightCol {
-	border: solid 2px #e1dad0;
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
 #emImgBox {
 	text-align: center;
 }
 #emImg {
-	width: 200px;
+	width: 180px;
 	border-radius: 3px;
 	box-shadow: 2px 2px 4px #a4a5a0;
+	margin: 20px;
+	margin-top: 10px;
 }
 #emRow {
-	width: 75%;
+	width: 80%;
 	margin: auto;
 }
 #aboutEM {
@@ -398,25 +349,8 @@ h4 {
 	padding-top: 20px;
 	padding-bottom: 70px;
 }
-#emLeftCol {
-	border: solid 2px dimgrey;
-	padding-top: 20px;
-	margin-top: 30px;
-	margin-right: 20px;
-	padding-left: 20px;
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
-#emRightCol {
-	border: solid 2px dimgrey;
-	margin-top: 30px;
-	margin-left: 20px;
-	padding-left: 20px;
-	padding-top: 20px;	
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
-#aboutMaterials {
+
+#aboutWhite, #aboutWhite2 {
 	background-color: white;
 	text-align: right;
 	margin: auto;
@@ -427,73 +361,12 @@ h4 {
 	padding-top: 20px;
 	padding-bottom: 70px;
 }
-#matsAbout {
-	width: 45%;
-	margin: auto;
-	text-align: center;
-}
-#matsBotP {
-	width: 75%;
-	margin: auto;
-	text-align: center;
-	font-size: 14px;
-	font-family: 'Open Sans';
-	padding-top: 20px;
-}
-#matsImageBox {
-	padding-top: 10px;
-}
-#matsP {
-	text-align: center;
-	font-size: 14px;
-	font-family: 'Open Sans';
-}
-#matsRightCol {
-	border: solid 2px #e1dad0;
-	margin-top: 10px;
-	margin-left: 20px;
-	padding-left: 20px;
-	padding-top: 20px;	
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
-#matsLeftCol {
-	border: solid 2px #e1dad0;
-	padding-top: 20px;
-	margin-top: 10px;
-	margin-right: 20px;
-	padding-left: 20px;
-	border-radius: 2px;
-	box-shadow: 2px 2px 8px #e1dad0;
-}
-#aboutMad {
-	background-color: #F2F3EB;
-	text-align: right;
-	margin: auto;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	top: 0;
-	padding-top: 20px;
-	padding-bottom: 70px;
-}
-#madRow {
-	width: 75%;
-	margin: auto;
-}
-#madCol {
+#aboutEMCol {
 	border: solid 2px dimgrey;
-	margin-top: 10px;
-	margin-left: 20px;
-	padding-left: 20px;
-	padding-top: 20px;	
+	padding-top: 20px;
+	margin-top: 30px;
 	border-radius: 2px;
 	box-shadow: 2px 2px 8px #e1dad0;
-}
-#madAbout {
-	width: 60%;
-	margin: auto;
-	text-align: center;
 }
 
 /*--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER*/
