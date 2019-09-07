@@ -117,6 +117,7 @@
                         <p id="available">↠ AVAILABLE HATS ↞</p>
                         <hr id="availHr">
                         <br>
+                        <p id="mobileInfoP">Tap on each item for more info!</p>
                         <div class="row justify-content-center">
                     <div class="col" v-for="(item, index) in items"> <button class="itemBtn" v-on:click="loadItem(index), showShopItem()" >
                         <div class="shopItems" id="itemBox" v-bind:style="{ backgroundImage: 'url(' + item.productImage + ')' }">

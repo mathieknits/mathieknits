@@ -111,13 +111,15 @@
  <!-- shop app -->
     <div class="container" id="mittenApp">
         <div class="row justify-content-center" >
-            <div class="col-1"></div>
+            
                     <div class="col justify-content-center" id="shopApp">
                         <br>
                         <p id="available">↠ AVAILABLE MITTENS ↞</p>
                         <hr id="availHr">
                         <br>
+                        <p id="mobileInfoP">Tap on each item for more info!</p>
                         <div class="row justify-content-center">
+
                     <div class="col" v-for="(item, index) in items"> <button class="itemBtn" v-on:click="loadItem(index), showShopItem()" >
                         <div class="shopItems" id="itemBox" v-bind:style="{ backgroundImage: 'url(' + item.productImage + ')' }">
                             <div class="overlay">
@@ -146,7 +148,7 @@
                  </div></button>
             </div>
         </div>
-                    <div class="col-1"></div>
+                    
     </div>
 
 <!--ITEM INFO POPUP -->
