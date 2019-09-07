@@ -444,18 +444,10 @@ textarea {
 
 }
 #FAQrow {
-  width: 45%;
   margin: auto;
   text-align: center;
 }
-#matsBotP {
-  width: 75%;
-  margin: auto;
-  text-align: center;
-  font-size: 14px;
-  font-family: 'Open Sans';
-  padding-top: 20px;
-}
+
 #matsImageBox {
   padding-top: 10px;
 }
@@ -464,29 +456,22 @@ textarea {
   font-size: 14px;
   font-family: 'Open Sans';
 }
-#FAQRight {
+
+#FAQCol {
   border: solid 2px #e1dad0;
+  padding: 20px;
   margin-top: 10px;
-  margin-left: 20px;
-  padding-left: 20px;
-  padding-top: 20px;  
-  border-radius: 2px;
-  box-shadow: 2px 2px 8px #e1dad0;
-}
-#FAQLeft {
-  border: solid 2px #e1dad0;
-  padding-top: 20px;
-  margin-top: 10px;
-  margin-right: 20px;
-  padding-left: 20px;
   border-radius: 2px;
   box-shadow: 2px 2px 8px #e1dad0;
 }
 #infoP {
   text-align: left;
-  font-size: 14px;
   font-family: 'Open Sans';
+  color: black;
+  margin: 10px;
+  margin-bottom: 20px;
 }
+
 
 /*--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER--FOOTER*/
 #footer {
