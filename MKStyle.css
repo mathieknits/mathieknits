@@ -97,12 +97,14 @@ h4 {
 	#siteNav, .siteNavBut, #btnHr {
 		display: none;
 	}
+	
 }
 
 @media only screen and (min-width: 1000px) {
 	#siteNav, .siteNavBut, #btnHr {
 		display: block;
 	}
+
 }
 #siteNav {
 	background-color: white;
@@ -237,9 +239,9 @@ h4 {
 #littleText {
 	font-family: Lato;
 	font-size: 1em;
-	letter-spacing: 2px;
 	font-weight: bold;
 	color: black;
+
 }
 .newArrivals {
   width: 165px;
