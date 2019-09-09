@@ -385,8 +385,6 @@ h5 {
  	padding-top: 20px; /* Location of the box */
   	left: 0;
   	right: 0;
-  	
-  	top: 3vw;
   	background-color: whitesmoke;
   	border-radius: 5px;
   	border: solid 3px #77746a;
@@ -402,6 +400,7 @@ h5 {
 @media only screen and (min-width: 500px) {
 	#itemInfoCont {
 		height: 61vw;
+		top: 10vw;
 	}
 	#itemTitle {
 		font-size: 26px;
@@ -471,6 +470,7 @@ h5 {
 	#itemInfoCont {
 		height: 550px;
 		overflow-y: scroll;
+		top: 3vw;
 	}
 	#itemTitle {
 		font-size: 34px;
