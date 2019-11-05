@@ -28,6 +28,33 @@ const app = new Vue ({
 		care: care,
 
 		items: [
+			{	name: 'FALCON',
+				productImage: './img/mittens/falcon.jpg',
+				productImageB: './img/mittens/thum/falconb.jpg',
+				productImageC: './img/mittens/thum/falconc.jpg',
+				productImageD: './img/mittens/thum/falcond.jpg',
+				materials: 'Tiny House & TripWire',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'DENALI',
+				productImage: './img/mittens/denali.jpg',
+				productImageB: './img/mittens/thum/denalib.jpg',
+				productImageC: './img/mittens/thum/denalic.jpg',
+				productImageD: './img/mittens/thum/denalid.jpg',
+				materials: 'Plaid Blanket & Whiskey Barrel',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/645476119/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638749810'
+			},		
+
+			{	name: 'MARS',
+				productImage: './img/mittens/mars.jpg',
+				productImageB: './img/mittens/thum/marsb.jpg',
+				productImageC: './img/mittens/thum/marsc.jpg',
+				productImageD: './img/mittens/thum/marsd.jpg',
+				materials: 'Life On Mars & Superb',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
+
 			{	name: 'AUTUMN',
 				productImage: './img/mittens/autumn.jpg',
 				productImageB: './img/mittens/thum/autumnb.jpg',
@@ -55,6 +82,15 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643110481/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638662629'
 			},	
 
+			{	name: 'SEQUOIA',
+				productImage: './img/mittens/sequoia.jpg',
+				productImageB: './img/mittens/thum/sequoiab.jpg',
+				productImageC: './img/mittens/thum/sequoiac.jpg',
+				productImageD: './img/mittens/thum/sequoiad.jpg',
+				materials: 'Carbon Dating & Fair Isle Sweater',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
+
 			{	name: 'GRIZZLY BEAR',
 				productImage: './img/mittens/grizzlybear.jpg',
 				productImageB: './img/mittens/thum/grizzlybearb.jpg',
@@ -73,6 +109,15 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/480258166/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638631697'
 			},
 
+			{	name: 'HONEY',
+				productImage: './img/mittens/honey.jpg',
+				productImageB: './img/mittens/thum/honeyb.jpg',
+				productImageC: './img/mittens/thum/honeyc.jpg',
+				productImageD: './img/mittens/thum/honeyd.jpg',
+				materials: 'Librarians Dream & Carbon Dating',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
+
 			{	name: 'ECLIPSE',
 				productImage: './img/mittens/eclipse.jpg',
 				productImageB: './img/mittens/thum/eclipseb.jpg',
@@ -80,7 +125,25 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/eclipsed.jpg',
 				materials: 'Harvest & Canvas Tent',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629271016/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638694705'
-			},	
+			},
+
+			{	name: 'ARBOREAL',
+				productImage: './img/mittens/arboreal.jpg',
+				productImageB: './img/mittens/thum/arborealb.jpg',
+				productImageC: './img/mittens/thum/arborealc.jpg',
+				productImageD: './img/mittens/thum/arboreald.jpg',
+				materials: 'Joshua Tree & Whomping Willow',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'WILLOW',
+				productImage: './img/mittens/willow.jpg',
+				productImageB: './img/mittens/thum/willowb.jpg',
+				productImageC: './img/mittens/thum/willowc.jpg',
+				productImageD: './img/mittens/thum/willowd.jpg',
+				materials: 'Forest Floor',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},			
 
 			{	name: 'HUCKLEBERRY',
 				productImage: './img/mittens/huckleberry.jpg',
@@ -108,6 +171,33 @@ const app = new Vue ({
 				materials: 'Costeau & Astrid Grey',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/504339403/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638605922'
 			},
+
+			{	name: 'RIPARIAN',
+				productImage: './img/mittens/riparian.jpg',
+				productImageB: './img/mittens/thum/riparianb.jpg',
+				productImageC: './img/mittens/thum/riparianc.jpg',
+				productImageD: './img/mittens/thum/ripariand.jpg',
+				materials: 'Peat & Misfortune',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
+
+			{	name: 'ESTUARY',
+				productImage: './img/mittens/ESTUARY.jpg',
+				productImageB: './img/mittens/thum/estuaryb.jpg',
+				productImageC: './img/mittens/thum/estuaryc.jpg',
+				productImageD: './img/mittens/thum/estuaryd.jpg',
+				materials: 'Snake & Misfortune',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
+
+			{	name: 'CHRYSOLINA',
+				productImage: './img/mittens/chrysolina.jpg',
+				productImageB: './img/mittens/thum/chrysolinab.jpg',
+				productImageC: './img/mittens/thum/chrysolinac.jpg',
+				productImageD: './img/mittens/thum/chrysolinad.jpg',
+				materials: 'New Moon & Misfortune',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
 
 			{	name: 'TIDAL WAVE',
 				productImage: './img/mittens/tidalwave.jpg',
@@ -152,16 +242,7 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/devoniad.jpg',
 				materials: 'Pecan Hull & Paper',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/563226543/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638589962'
-			},	
-
-			{	name: 'DENALI',
-				productImage: './img/mittens/denali.jpg',
-				productImageB: './img/mittens/thum/denalib.jpg',
-				productImageC: './img/mittens/thum/denalic.jpg',
-				productImageD: './img/mittens/thum/denalid.jpg',
-				materials: 'Plaid Blanket & Whiskey Barrel',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/645476119/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638749810'
-			},	
+			}
 
 				]
 			},

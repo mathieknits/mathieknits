@@ -29,11 +29,119 @@ const app = new Vue ({
 		care: care,
 
 		items: [
+			{	name: 'CARDINAL',
+				productImage: './img/hats/cardinal.jpg',
+				productImageB: './img/hats/thum/cardinalc.jpg',
+				productImageC: './img/hats/thum/cardinald.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'The Red Woman',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'GINGER',
+				productImage: './img/hats/ginger.jpg',
+				productImageB: './img/hats/thum/gingerc.jpg',
+				productImageC: './img/hats/thum/gingerd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Carbon Dating',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'GINSENG',
+				productImage: './img/hats/ginseng.jpg',
+				productImageB: './img/hats/thum/ginsengc.jpg',
+				productImageC: './img/hats/thum/ginsengd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Librarians Dream',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'SAGUARO',
+				productImage: './img/hats/saguaro.jpg',
+				productImageB: './img/hats/thum/saguaroc.jpg',
+				productImageC: './img/hats/thum/saguarod.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Joshua Tree',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'SPRUCE',
+				productImage: './img/hats/spruce.jpg',
+				productImageB: './img/hats/thum/sprucec.jpg',
+				productImageC: './img/hats/thum/spruced.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Boomslang',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'ELEMENT',
+				productImage: './img/hats/element.jpg',
+				productImageB: './img/hats/thum/elementb.jpg',
+				productImageC: './img/hats/thum/elementc.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Bluesteau',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'ANEMONE',
+				productImage: './img/hats/anemone.jpg',
+				productImageB: './img/hats/thum/anemonec.jpg',
+				productImageC: './img/hats/thum/anemoned.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'New Moon',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'ANDROMEDA',
+				productImage: './img/hats/andromeda.jpg',
+				productImageB: './img/hats/thum/andromedac.jpg',
+				productImageC: './img/hats/thum/andromedad.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Fair Isle Sweater',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'DAHLIA',
+				productImage: './img/hats/dahlia.jpg',
+				productImageB: './img/hats/thum/dahliac.jpg',
+				productImageC: './img/hats/thum/dahliad.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Tsing Tsing Pepper',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'ORCHID',
+				productImage: './img/hats/orchid.jpg',
+				productImageB: './img/hats/thum/orchidc.jpg',
+				productImageC: './img/hats/thum/orchidd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'Smokey Orchid',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'GYPSUM',
+				productImage: './img/hats/gypsum.jpg',
+				productImageB: './img/hats/thum/gypsumc.jpg',
+				productImageC: './img/hats/thum/gypsumd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'TripWire & Antler',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'VOLCANIC',
+				productImage: './img/hats/volcanic.jpg',
+				productImageB: './img/hats/thum/volcanicc.jpg',
+				productImageC: './img/hats/thum/volcanicd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
+				materials: 'TChalla',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
 			{	name: 'WOODLAND',
 				productImage: './img/hats/woodland.jpg',
 				productImageB: './img/hats/thum/woodlandb.jpg',
 				productImageC: './img/hats/thum/woodlandc.jpg',
-				productImageD: './img/hats/thum/woodlandd.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
 				materials: 'Woodstock',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629293516/winter-hat-herringbone-hat-beanie?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567639361691'
 			},
@@ -42,7 +150,7 @@ const app = new Vue ({
 				productImage: './img/hats/zion.jpg',
 				productImageB: './img/hats/thum/zionb.jpg',
 				productImageC: './img/hats/thum/zionc.jpg',
-				productImageD: './img/hats/thum/ziond.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
 				materials: 'Arya',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629294230/winter-hat-herringbone-hat-beanie?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567639344545'
 			},
@@ -51,7 +159,7 @@ const app = new Vue ({
 				productImage: './img/hats/fossil.jpg',
 				productImageB: './img/hats/thum/fossilb.jpg',
 				productImageC: './img/hats/thum/fossilc.jpg',
-				productImageD: './img/hats/thum/fossild.jpg',
+				productImageD: './img/hats/thum/hatbw.jpg',
 				materials: 'Foxhole Grey',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/646497044/winter-hat-herringbone-hat-beanie?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567639325566'
 			},	
