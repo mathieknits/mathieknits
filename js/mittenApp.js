@@ -182,7 +182,7 @@ const app = new Vue ({
 			},	
 
 			{	name: 'ESTUARY',
-				productImage: './img/mittens/ESTUARY.jpg',
+				productImage: './img/mittens/estuary.jpg',
 				productImageB: './img/mittens/thum/estuaryb.jpg',
 				productImageC: './img/mittens/thum/estuaryc.jpg',
 				productImageD: './img/mittens/thum/estuaryd.jpg',
