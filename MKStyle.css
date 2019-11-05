@@ -272,11 +272,11 @@ h4 {
 }
 
 
-#nA1 { background: url("./img/naolingo.jpg");}
-#nA2 { background: url("./img/nazion.jpg");}
-#nA3 { background: url("./img/nawinterberry.jpg");}
-#nA4 { background: url("./img/nawoodland.jpg");}
-#nA5 { background: url("./img/nagrizzlybear.jpg");3}
+#nA1 { background: url("./img/naestuary.jpg");}
+#nA2 { background: url("./img/naandromeda.jpg");}
+#nA3 { background: url("./img/nahoney.jpg");}
+#nA4 { background: url("./img/naarboreal.jpg");}
+#nA5 { background: url("./img/naginseng.jpg");3}
 
 @media only screen and (min-width: 500px) {
 	#nA4 {
