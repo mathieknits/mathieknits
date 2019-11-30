@@ -24,7 +24,6 @@ h3 {
 	font-size: 0.5em; /*15px*/
     font-weight: bold;
 }
-
 h4 {
 	letter-spacing: 2px;
 	font-family: Raleway;
@@ -155,13 +154,15 @@ h4 {
 /*FOR PHONE*/
 @media only screen and (min-width: 500px) {
   #learnMore {
-	background-image: url('./img/catch1.jpg');
+	/*background-image: url('./img/catch1.jpg');
 	height: 32vw;
 	width: 100%;
 	overflow: hidden;
+	*/
+	display: none;
 }
 #learnMoreBox {
-	background-color: #F2F3EB;
+	/*background-color: #F2F3EB;
 	width: 50vw;
 	text-align: center;
 	margin: auto;
@@ -175,18 +176,22 @@ h4 {
 	box-shadow: 2px 2px 4px #393e41;
 	-webkit-animation: smooth 0.6s ease-in;
 	border: solid 2px #e1dad0;
+	*/
+	display: none;
 }
 }
 
 /*FOR DESKTOP*/
 @media only screen and (min-width: 1000px) {
   #learnMore {
+  	display: block;
 	background-image: url('./img/catch1.jpg');
 	height: 24vw;
 	width: 100%;
 	overflow: hidden;
 }
 #learnMoreBox {
+	display: block;
 	background-color: #F2F3EB;
 	width: 36vw;
 	text-align: center;
@@ -256,9 +261,23 @@ h4 {
 	color: black;
 
 }
+
+@media only screen and (min-width: 500px) {
+	.newArrivals {
+		width: 175px;
+		height: 175px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.newArrivals {
+		width: 185px;
+		height: 185px;
+	}
+}
+
 .newArrivals {
-  width: 165px;
-  height: 165px;
+
   top: 0;
   right: 0;
   left: 0;
@@ -272,25 +291,19 @@ h4 {
 }
 
 
-#nA1 { background: url("./img/naestuary.jpg");}
-#nA2 { background: url("./img/naandromeda.jpg");}
-#nA3 { background: url("./img/nahoney.jpg");}
-#nA4 { background: url("./img/naarboreal.jpg");}
-#nA5 { background: url("./img/naginseng.jpg");3}
+#nA1 { background: url("./img/nasagebrush.jpg");}
+#nA2 { background: url("./img/nahoneybadger.jpg");}
+#nA3 { background: url("./img/naandromeda.jpg");}
+#nA4 { background: url("./img/nariparian.jpg");}
+
 
 @media only screen and (min-width: 500px) {
 	#nA4 {
 		display: none;
 	}
-	#nA5 {
-		display: none;
-	}
 }
 @media only screen and (min-width: 1000px) {
 	#nA4 {
-		display: inline-block;
-	}
-	#nA5 {
 		display: inline-block;
 	}
 }
@@ -381,6 +394,19 @@ h4 {
 }
 
 /*--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--CALENDAR--*/
+
+@media only screen and (min-width: 500px) {
+	#ducf {
+		width: 700px;
+			}
+}
+
+@media only screen and (min-width: 1000px) {
+	#ducf {
+		width: 100%;
+			}
+}
+
 #calendar {
 	background-color: #F2F3EB;
 	text-align: right;
@@ -754,8 +780,19 @@ h4 {
   width: 70%;
   height: 488px;
 }
+@media only screen and (min-width: 500px) {
+	.modal-content p {
+		padding-left: 60px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.modal-content p {
+		padding-left: 180px;
+	}
+}
+
 .modal-content p {
-	padding-left: 120px;
 	font-size: 14px;
 }
 .modal-content h1 {
@@ -858,7 +895,8 @@ nav input[type=checkbox]:checked + label #menu-icon:after {
     bottom: 0;
     transform: rotate(45deg);
 }
-/*** MENU ***/
+
+/****************************** MOBILE MENU ************************************/
 /* Overlay */
 nav input:checked ~ #overlay {
     background: #F2F3EB;

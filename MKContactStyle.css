@@ -177,13 +177,15 @@ h6 {
 /*FOR PHONE*/
 @media only screen and (min-width: 500px) {
   #learnMore {
-  background-image: url('./img/catch1.jpg');
+  /*background-image: url('./img/catch1.jpg');
   height: 32vw;
   width: 100%;
   overflow: hidden;
+  */
+  display: none;
 }
 #learnMoreBox {
-  background-color: #F2F3EB;
+  /*background-color: #F2F3EB;
   width: 50vw;
   text-align: center;
   margin: auto;
@@ -197,18 +199,22 @@ h6 {
   box-shadow: 2px 2px 4px #393e41;
   -webkit-animation: smooth 0.6s ease-in;
   border: solid 2px #e1dad0;
+  */
+  display: none;
 }
 }
 
 /*FOR DESKTOP*/
 @media only screen and (min-width: 1000px) {
   #learnMore {
+    display: block;
   background-image: url('./img/catch1.jpg');
   height: 24vw;
   width: 100%;
   overflow: hidden;
 }
 #learnMoreBox {
+  display: block;
   background-color: #F2F3EB;
   width: 36vw;
   text-align: center;
@@ -566,8 +572,19 @@ textarea {
   width: 70%;
   height: 488px;
 }
+@media only screen and (min-width: 500px) {
+  .modal-content p {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .modal-content p {
+    padding-left: 180px;
+  }
+}
+
 .modal-content p {
-  padding-left: 120px;
   font-size: 14px;
 }
 .modal-content h1 {
