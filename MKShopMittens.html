@@ -164,11 +164,13 @@
                 <img v-bind:src="productImageC" v-on:click="changeToProductImageC()" id="smallImage">
                 <img v-bind:src="productImageD" v-on:click="changeToProductImageD()" id="smallImage">
             </div>
-        </div>
+        </div><br>
+        <p id="care"> {{care}} </p>
     </div>
 
-        <div class="col justify-content-center" id="infoSide">
+        <div class="col justify-content-center">
             <p id="itemTitle"> {{ productName }}</p>
+            
 
             <p id="itemMaterials">Madelinetosh<br>{{ materials }}</p>
 
@@ -178,7 +180,7 @@
 
             <p id="size"> {{size}} </p>
 
-            <p id="care"> {{care}} </p>
+            
 
                 <button id="toEtsy" v-on:click="addToCart()">ADD TO CART</button>
         </div>
@@ -190,10 +192,6 @@
         </div>
     </div>
 </div>
-
-
-<br>
-<br>
 <!--take to prev/current button -->
     <div class="container">
         <div class="row justify-content-center">
