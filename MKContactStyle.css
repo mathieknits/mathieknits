@@ -2,8 +2,11 @@
 *:focus { outline: 0 !important;}
 
 .body { overflow-y: scroll; }
-a {
-  text-decoration: none !important;
+
+a { color: goldenrod;
+  text-decoration: none !important; }
+a:hover {
+  color: darkgoldenrod;
 }
 
 /*--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--*/

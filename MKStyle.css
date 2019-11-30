@@ -3,7 +3,11 @@
 
 .body { overflow-y: scroll; }
 
-a { text-decoration: none !important; }
+a { color: goldenrod;
+	text-decoration: none !important; }
+a:hover {
+	color: darkgoldenrod;
+}
 
 /*--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--*/
 h1 {
@@ -444,16 +448,18 @@ h4 {
 }
 @media only screen and (min-width: 1000px) {
 	#dates {
-		font-size: 1em;
+		font-size: 1.4em;
 	}
 }
 
 #dates {
-	text-align: left;
+	text-align: center;
 	font-family: Lato;
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-bottom: 1.2em;
+	font-weight: bold;
+
 }
 #datesOld {
 	font-family: Lato;
@@ -475,11 +481,16 @@ h4 {
 	border: solid 2px black;
 	margin-right: 1em;
 	box-shadow: 1px 1px 2px #a4a5a0;
+	border-radius: 3px;
+	background-color: white;
+
 }
 #calRightCol {
 	border: solid 2px black;
 	margin-left: 1em;
 	box-shadow: 1px 1px 2px #a4a5a0;
+	border-radius: 3px;
+	background-color: white;
 }
 #tentative {
 	text-align: center;

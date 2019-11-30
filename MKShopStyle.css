@@ -267,8 +267,8 @@ h5 {
 }
 @media only screen and (min-width: 500px) {
 	.shopItems {
-		width: 160px;
-  		height: 160px;
+		width: 260px;
+  		height: 260px;
   		margin: auto;
 	}
 	#mobileInfoP{
@@ -278,8 +278,8 @@ h5 {
 
 @media only screen and (min-width: 1000px) {
 	.shopItems {
-		width: 200px;
-  		height: 200px;
+		width: 240px;
+  		height: 240px;
   		margin: 40px;
 	}
 	#mobileInfoP{
@@ -399,76 +399,87 @@ h5 {
 
 @media only screen and (min-width: 500px) {
 	#itemInfoCont {
-		height: 61vw;
-		top: 30vw;
+		height: 80vw;
+		top: 22vw;
+		width: 100vw;
 	}
 	#itemTitle {
-		font-size: 26px;
+		font-size: 28px;
+		
 	}
 	#itemMaterials {
 		padding-top: 5px;
-		font-size: 14px;
-		line-height: 15px;
+		font-size: 18px;
+		line-height: 17px;
 		color: dimgrey;
+		margin-bottom: 20px;
 	}
 	#itemPrice{
-		font-size: 24px;
+		font-size: 28px;
 		font-weight: bold;
 		font-family: Roboto;
 		letter-spacing: 1px;
-		line-height: 15px;
+		line-height: 20px;
 		padding-top: 2px;
+		margin-bottom: 20px;
 	}
 	#itemBigImage {
 		background-color: none;
-		height: 340px;
-		padding-top: 10px;
+		height: 330px;
+		margin-top: 10px;
 	}
 	#itemSmallImages {
 		text-align: center;
-		padding-top: 5vw;
-		width: 360px;
+		padding-top: 12vw;
+		width: 100%;
 		margin: auto;
 	}
 	#bigImage {
-		padding-top: 0px;
-		width: 340px;
-		height: 340px;
+		width: 420px;
+		height: 420px;
 		border-radius: 2px;
 		box-shadow: 2px 2px 3px #77746a;
 		margin: auto;
+		margin-left: 15px;
+		margin-right: 10px;
 	}
 	#smallImage {
-		width: 66px;
+		width: 80px;
 		border-radius: 2px;
 		margin: 5px;
 		box-shadow: 2px 2px 3px #77746a;
 	}
 	#size {
-		font-size: 13px;
+		font-size: 18px;
 	}
 	#care {
-		font-size: 13px;
-		padding-bottom: 10px;
+		font-size: 16px;
+		padding-bottom: 5px;
+		margin-left: 15px;
 	}
 	#itemDescript {
-		font-size: 13px;
+		font-size: 17px;
+		margin-right: 10px;
 	}
 	#closeShopCol {
 		text-align: center;
-		padding-top: 20px;
 	}
 	#closeShop {
 		height: 50px;
 	}
 	#toEtsy {
-		height: 50px;
+		margin-top: 20px;
+		margin-left: 5px;
+		height: 80px;
+		width: 220px;
+		font-size: 20px;
+
 	}
 }
 
 @media only screen and (min-width: 1000px) {
 	#itemInfoCont {
-		height: 550px;
+		height: 570px;
 		overflow-y: scroll;
 		top: 3vw;
 	}
@@ -492,6 +503,7 @@ h5 {
 	#itemBigImage {
 		background-color: none;
 		height: 340px;
+		margin-bottom: 10px;
 	}
 	#itemSmallImages {
 		text-align: center;
@@ -516,20 +528,23 @@ h5 {
 	}
 	#care {
 		font-size: 14px;
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 	}
 	#itemDescript {
 		font-size: 14px;
 	}
 	#closeShopCol {
 		text-align: center;
-		padding-top: 5px;
+		padding-top: 9px;
 	}
 	#closeShop {
 		height: 40px;
 	}
 	#toEtsy {
-		height: 40px;
+		height: 60px;
+		width: 400px;
+		margin-left: 40px;
+		font-size: 20px;
 	}
 }
 
@@ -557,7 +572,7 @@ h5 {
 }
 #closeShop:hover {
 	border-color: #484848;
-	background-color: #daddc6;
+	background-color: #e1dad0;
 	cursor: pointer;
 	color: #484848;
 	font-weight: bold;
@@ -565,15 +580,14 @@ h5 {
 #toEtsy {
 	background-color: black;
 	color:white;
-	border: solid 2px whitesmoke;
-	width: 140px;
+	border: solid 2px #484848;
 	transition: 0.6s;
 	font-family: Raleway;
 	border-radius: 3px;
 
 }
 #toEtsy:hover {
-	box-shadow: inset 140px 0 0 0 #e1dad0;
+	box-shadow: inset 500px 0 0 0 #e1dad0;
 	border: solid 2px #484848;
 	color: black;
 	cursor: pointer;
@@ -715,8 +729,19 @@ h5 {
   width: 70%;
   height: 488px;
 }
+@media only screen and (min-width: 500px) {
+	.modal-content p {
+		padding-left: 60px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.modal-content p {
+		padding-left: 180px;
+	}
+}
+
 .modal-content p {
-	padding-left: 10vw;
 	font-size: 14px;
 }
 .modal-content h1 {

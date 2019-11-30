@@ -41,7 +41,6 @@
             </div>
 
             <div class="col-2 justify-content-center" id="topNavRight">
-                <a href="./MK.html#subscribeCont"><button class="topNavLinks" id="conBut">SUBSCRIBE</button></a>
             </div>
         </div>
     </div>
@@ -70,6 +69,8 @@
             <li>
                 &nbsp;&nbsp;<a href="https://www.instagram.com/mathieknits" target="_blank"><img src='./img/instagram.png' id="socialIcons"></a>&nbsp;&nbsp;
             </li>
+            <br>
+            <img src='./img/mklogoshadowdark.png' id="headerLogo">
         </ul>
     </div>
 </nav>
@@ -164,13 +165,15 @@
                 <img v-bind:src="productImageC" v-on:click="changeToProductImageC()" id="smallImage">
                 <img v-bind:src="productImageD" v-on:click="changeToProductImageD()" id="smallImage">
             </div>
-        </div>
+        </div><br>
+        <p id="care"> {{care}} </p>
     </div>
 
         <div class="col justify-content-center">
             <p id="itemTitle"> {{ productName }}</p>
+            
 
-            <p id="itemMaterials">&nbsp;Madelinetosh<br>&nbsp;{{ materials }}</p>
+            <p id="itemMaterials">Madelinetosh<br>{{ materials }}</p>
 
             <p id="itemPrice">{{ price }}</p>
 
@@ -178,7 +181,7 @@
 
             <p id="size"> {{size}} </p>
 
-            <p id="care"> {{care}} </p>
+            
 
                 <button id="toEtsy" v-on:click="addToCart()">ADD TO CART</button>
         </div>
