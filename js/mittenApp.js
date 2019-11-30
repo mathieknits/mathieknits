@@ -28,23 +28,15 @@ const app = new Vue ({
 		care: care,
 
 		items: [
-			{	name: 'FALCON',
-				productImage: './img/mittens/falcon.jpg',
-				productImageB: './img/mittens/thum/falconb.jpg',
-				productImageC: './img/mittens/thum/falconc.jpg',
-				productImageD: './img/mittens/thum/falcond.jpg',
-				materials: 'Tiny House & TripWire',
-				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
-			},
 
-			{	name: 'DENALI',
-				productImage: './img/mittens/denali.jpg',
-				productImageB: './img/mittens/thum/denalib.jpg',
-				productImageC: './img/mittens/thum/denalic.jpg',
-				productImageD: './img/mittens/thum/denalid.jpg',
-				materials: 'Plaid Blanket & Whiskey Barrel',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/645476119/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638749810'
-			},		
+			{	name: 'BONFIRE',
+				productImage: './img/mittens/bonfire.jpg',
+				productImageB: './img/mittens/thum/bonfireb.jpg',
+				productImageC: './img/mittens/thum/bonfirec.jpg',
+				productImageD: './img/mittens/thum/bonfired.jpg',
+				materials: 'The Red Woman & Superb',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
 
 			{	name: 'MARS',
 				productImage: './img/mittens/mars.jpg',
@@ -62,6 +54,24 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/autumnd.jpg',
 				materials: 'Saffron & Peat',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643097917/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638736542'
+			},
+
+			{	name: 'CINNABAR',
+				productImage: './img/mittens/cinnabar.jpg',
+				productImageB: './img/mittens/thum/cinnabarb.jpg',
+				productImageC: './img/mittens/thum/cinnabarc.jpg',
+				productImageD: './img/mittens/thum/cinnabard.jpg',
+				materials: 'Cinnamon Dolce & Superb',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'MONARCH',
+				productImage: './img/mittens/monarch.jpg',
+				productImageB: './img/mittens/thum/monarchb.jpg',
+				productImageC: './img/mittens/thum/monarchc.jpg',
+				productImageD: './img/mittens/thum/monarchd.jpg',
+				materials: 'Cinnamon Dolce & Peat',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
 			},	
 
 			{	name: 'RHIZOME',
@@ -127,6 +137,33 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629271016/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638694705'
 			},
 
+			{	name: 'PRAIRIE',
+				productImage: './img/mittens/prairie.jpg',
+				productImageB: './img/mittens/thum/prairieb.jpg',
+				productImageC: './img/mittens/thum/prairiec.jpg',
+				productImageD: './img/mittens/thum/prairied.jpg',
+				materials: 'Thyme & Librarians Dream',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'SEAFOAM',
+				productImage: './img/mittens/seafoam.jpg',
+				productImageB: './img/mittens/thum/seafoamb.jpg',
+				productImageC: './img/mittens/thum/seafoamc.jpg',
+				productImageD: './img/mittens/thum/seafoamd.jpg',
+				materials: 'Venti Dragon Moch & Thyme',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'ECHEVERIA',
+				productImage: './img/mittens/echeveria.jpg',
+				productImageB: './img/mittens/thum/echeveriab.jpg',
+				productImageC: './img/mittens/thum/echeveriac.jpg',
+				productImageD: './img/mittens/thum/echeveriad.jpg',
+				materials: 'Thyme & Forest Floor',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
 			{	name: 'ARBOREAL',
 				productImage: './img/mittens/arboreal.jpg',
 				productImageB: './img/mittens/thum/arborealb.jpg',
@@ -136,14 +173,23 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
 			},
 
-			{	name: 'WILLOW',
-				productImage: './img/mittens/willow.jpg',
-				productImageB: './img/mittens/thum/willowb.jpg',
-				productImageC: './img/mittens/thum/willowc.jpg',
-				productImageD: './img/mittens/thum/willowd.jpg',
-				materials: 'Forest Floor',
-				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
-			},			
+			{	name: 'DUSK',
+				productImage: './img/mittens/dusk.jpg',
+				productImageB: './img/mittens/thum/duskb.jpg',
+				productImageC: './img/mittens/thum/duskc.jpg',
+				productImageD: './img/mittens/thum/duskc.jpg',
+				materials: 'Boxwood & Forest Floor',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},		
+
+			{	name: 'TOKAY',
+				productImage: './img/mittens/tokay.jpg',
+				productImageB: './img/mittens/thum/tokayb.jpg',
+				productImageC: './img/mittens/thum/tokayc.jpg',
+				productImageD: './img/mittens/thum/tokayd.jpg',
+				materials: 'Costeau & Astrid Grey',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/504339403/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638605922'
+			},	
 
 			{	name: 'HUCKLEBERRY',
 				productImage: './img/mittens/huckleberry.jpg',
@@ -161,15 +207,6 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/fjordd.jpg',
 				materials: 'Tripwire & Danger Will Robinson',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643102025/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638711332'
-			},	
-
-			{	name: 'TOKAY',
-				productImage: './img/mittens/tokay.jpg',
-				productImageB: './img/mittens/thum/tokayb.jpg',
-				productImageC: './img/mittens/thum/tokayc.jpg',
-				productImageD: './img/mittens/thum/tokayd.jpg',
-				materials: 'Costeau & Astrid Grey',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/504339403/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638605922'
 			},
 
 			{	name: 'RIPARIAN',
@@ -208,6 +245,15 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643116599/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638647628'
 			},	
 
+			{	name: 'ELDERBERRY',
+				productImage: './img/mittens/elderberry.jpg',
+				productImageB: './img/mittens/thum/elderberryb.jpg',
+				productImageC: './img/mittens/thum/elderberryc.jpg',
+				productImageD: './img/mittens/thum/elderberryd.jpg',
+				materials: 'New Moon & Smokey Orchid',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
 			{	name: 'LYRETAIL',
 				productImage: './img/mittens/lyretail.jpg',
 				productImageB: './img/mittens/thum/lyretailb.jpg',
@@ -216,6 +262,33 @@ const app = new Vue ({
 				materials: 'Wilding & Kitten',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629276666/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638507894'
 			},
+
+			{	name: 'MULBERRY',
+				productImage: './img/mittens/mulberry.jpg',
+				productImageB: './img/mittens/thum/mulberryb.jpg',
+				productImageC: './img/mittens/thum/mulberryc.jpg',
+				productImageD: './img/mittens/thum/mulberryd.jpg',
+				materials: 'Smokey Orchid & Forest Floor',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},	
+
+			{	name: 'SAGEBRUSH',
+				productImage: './img/mittens/sagebrush.jpg',
+				productImageB: './img/mittens/thum/sagebrushb.jpg',
+				productImageC: './img/mittens/thum/sagebrushc.jpg',
+				productImageD: './img/mittens/thum/sagebrushd.jpg',
+				materials: 'Boxwood & Fair Isle',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},	
+
+			{	name: 'WILLOW',
+				productImage: './img/mittens/willow.jpg',
+				productImageB: './img/mittens/thum/willowb.jpg',
+				productImageC: './img/mittens/thum/willowc.jpg',
+				productImageD: './img/mittens/thum/willowd.jpg',
+				materials: 'Forest Floor',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},	
 
 			{	name: 'CELESTIAL',
 				productImage: './img/mittens/celestial.jpg',
@@ -233,7 +306,7 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/sandhilld.jpg',
 				materials: 'Tiny House & Antique Lace',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629280518/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638997587'
-			},	
+			},
 
 			{	name: 'DEVONIA',
 				productImage: './img/mittens/devonia.jpg',
@@ -242,7 +315,44 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/devoniad.jpg',
 				materials: 'Pecan Hull & Paper',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/563226543/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638589962'
-			}
+			},
+
+			{	name: 'DENALI',
+				productImage: './img/mittens/denali.jpg',
+				productImageB: './img/mittens/thum/denalib.jpg',
+				productImageC: './img/mittens/thum/denalic.jpg',
+				productImageD: './img/mittens/thum/denalid.jpg',
+				materials: 'Plaid Blanket & Whiskey Barrel',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/645476119/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567638749810'
+			},
+
+			{	name: 'FALCON',
+				productImage: './img/mittens/falcon.jpg',
+				productImageB: './img/mittens/thum/falconb.jpg',
+				productImageC: './img/mittens/thum/falconc.jpg',
+				productImageD: './img/mittens/thum/falcond.jpg',
+				materials: 'Tiny House & TripWire',
+				etsy: 'https://www.etsy.com/shop/MATHIEKNITS/'
+			},
+
+			{	name: 'HONEY BADGER',
+				productImage: './img/mittens/honeybadger.jpg',
+				productImageB: './img/mittens/thum/honeybadgerb.jpg',
+				productImageC: './img/mittens/thum/honeybadgerc.jpg',
+				productImageD: './img/mittens/thum/honeybadgerd.jpg',
+				materials: 'TChalla & Tiny House',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'CAVERN',
+				productImage: './img/mittens/cavern.jpg',
+				productImageB: './img/mittens/thum/cavernb.jpg',
+				productImageC: './img/mittens/thum/cavernc.jpg',
+				productImageD: './img/mittens/thum/cavernd.jpg',
+				materials: 'TChalla & Tripwire',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			}					
+
 
 				]
 			},
