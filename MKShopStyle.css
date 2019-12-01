@@ -111,7 +111,7 @@ h5 {
 
 /*--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--*/
 #logoSpace {
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	height: 280px;
 }
 #headerLogo {
@@ -784,7 +784,7 @@ h5 {
 
 /*--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--MOBILE NAV--*/
 nav {
-    background: white;
+    background: WhiteSmoke;
     color: #1d1f20;
     left: 0;
     position: relative;
@@ -857,7 +857,7 @@ nav input[type=checkbox]:checked + label #menu-icon:after {
 /*** MENU ***/
 /* Overlay */
 nav input:checked ~ #overlay {
-    background: #F2F3EB;
+    background: WhiteSmoke;
     bottom: 0;
     left: 0;
     height: 100vh;
