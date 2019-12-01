@@ -120,7 +120,7 @@ h4 {
 
 /*--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--*/
 #logoSpace {
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	height: 280px;
 }
 #headerLogo {
@@ -374,7 +374,7 @@ h4 {
 	margin: auto;
 }
 #aboutEM {
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	text-align: right;
 	margin: auto;
 	bottom: 0;
