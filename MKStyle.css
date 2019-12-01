@@ -102,7 +102,7 @@ h4 {
 
 /*--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--LOGO HEADER--*/
 #logoSpace {
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	height: 280px;
 }
 #headerLogo {
@@ -196,7 +196,7 @@ h4 {
 }
 #learnMoreBox {
 	display: block;
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	width: 36vw;
 	text-align: center;
 	margin: auto;
@@ -412,7 +412,7 @@ h4 {
 }
 
 #calendar {
-	background-color: #F2F3EB;
+	background-color: WhiteSmoke;
 	text-align: right;
 	margin: auto;
 	bottom: 0;
