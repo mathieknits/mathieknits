@@ -14,8 +14,8 @@ body {
 
 @media only screen and (min-width: 500px) {
 	#backgroundImage {
-		background-position: 40% 45%;
-		height: 1500px;
+		background-position: 30% 50%;
+		height: 2200px;
 	}
 	#logo {
 		padding-left: 2vw;
@@ -29,7 +29,7 @@ body {
 	.btn1 {
 		height: 10vw;
 		width: 34vw;
-		font-size: 1.2em;
+		font-size: 2em;
 	}
 	#homeSocial {
 		display: none;
@@ -38,7 +38,7 @@ body {
 
 @media only screen and (min-width: 1000px) {
 	#backgroundImage {
-		background-position: 1% 50%;
+		background-position: 20% 50%;
 	}
 	#logo {
 		padding-left: 2vw;
