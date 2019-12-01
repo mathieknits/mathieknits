@@ -51,15 +51,7 @@ const app = new Vue ({
 				price: '$78',
 			},	
 
-			{	name: 'WINTERBERRY',
-				productImage: './img/cowls/winterberry.jpg',
-				productImageB: './img/cowls/thum/winterberrya.jpg',
-				productImageC: './img/cowls/thum/winterberryb.jpg',
-				productImageD: './img/cowls/thum/winterberryc.jpg',
-				materials: 'Saffron & Tiny House',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643132435/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1567639104790',
-				price: '$78',
-			},
+			
 
 			{	name: 'LUNAR',
 				productImage: './img/cowls/lunar.jpg',
