@@ -14,6 +14,7 @@ body {
 
 @media only screen and (min-width: 500px) {
 	#backgroundImage {
+		background-position: 30% 100%;
 		height: 100%;
 		height: 2600px;
 	}
@@ -39,6 +40,7 @@ body {
 @media only screen and (min-width: 1000px) {
 	#backgroundImage {
 		background-position: 20% 50%;
+		height: 4000px;
 	}
 	#logo {
 		padding-left: 2vw;
