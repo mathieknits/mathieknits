@@ -283,7 +283,7 @@ textarea {
   overflow: auto;
 }
 #container {
-  background: #F2F3EB;
+  background: whitesmoke;
   border: solid 3px #474544;
   max-width: 868px;
   margin: 50px auto;
