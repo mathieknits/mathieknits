@@ -1,8 +1,7 @@
 * { font-family: 'Roboto', sans-serif;}
 *:focus { outline: 0 !important;}
 
-.body { overflow-y: scroll; 
-background-color: WhiteSmoke;}
+.body { overflow-y: scroll; }
 
 a { color: goldenrod;
 	text-decoration: none !important; }
@@ -575,7 +574,7 @@ nav label {
     padding: 1vw;
     font-weight: bold;
     line-height: 15px;
-    margin-top: 1em;
+    padding-top: 1em;
     margin-bottom: 0.8em;
 }
 /* Hamburger Icon */
