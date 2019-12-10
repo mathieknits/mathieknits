@@ -12,6 +12,129 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'ARBOREAL',
+				productImage: './img/mittens/sold/arboreal.jpg',
+				materials: 'Joshua Tree & W. Willow',
+			},
+
+			{	name: 'HONEY BADGER',
+				productImage: './img/mittens/sold/honeybadger.jpg',
+				materials: 'TChalla & TinyHouse',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'BONFIRE',
+				productImage: './img/mittens/sold/bonfire.jpg',
+				materials: 'The Red Woman & Superb',
+			},
+
+			{	name: 'BADLANDS',
+				productImage: './img/mittens/sold/badlands.jpg',
+				materials: 'Liquid Gold & Woodstock',
+			},
+
+			{	name: 'CAVERN',
+				productImage: './img/mittens/sold/cavern.jpg',
+				materials: 'TChalla & TripWire',
+			},
+
+			{	name: 'CELESTIAL',
+				productImage: './img/mittens/sold/celestial.jpg',
+				materials: 'Wildling & Paper',
+			},	
+
+			{	name: 'LYRETAIL',
+				productImage: './img/mittens/sold/lyretail.jpg',
+				materials: 'Wildling & Kitten',
+			},	
+
+			{	name: 'CHRYSOLINA',
+				productImage: './img/mittens/sold/chrysolina.jpg',
+				materials: 'New Moon & Misfortune',
+			},	
+
+			{	name: 'DENALI',
+				productImage: './img/mittens/sold/denali.jpg',
+				materials: 'Plaid Blanket & Whiskey B.',
+			},
+
+			{	name: 'DEVONIA',
+				productImage: './img/mittens/sold/devonia.jpg',
+				materials: 'Pecan Hull & Paper',
+			},
+
+			{	name: 'ELDERBERRY',
+				productImage: './img/mittens/sold/elderberry.jpg',
+				materials: 'New Moon & Sm. Orchid',
+			},
+
+			{	name: 'FALCON',
+				productImage: './img/mittens/sold/falcon.jpg',
+				materials: 'TinyHouse & TripWire',
+			},
+
+			{	name: 'CAVERN',
+				productImage: './img/mittens/sold/cavern.jpg',
+				materials: 'TChalla & TripWire',
+			},
+
+			{	name: 'FJORD',
+				productImage: './img/mittens/sold/fjord.jpg',
+				materials: 'TripWire & D.W.R.',
+			},
+
+			{	name: 'HONEY BADGER',
+				productImage: './img/mittens/sold/honeybadger.jpg',
+				materials: 'TChalla & TinyHouse',
+				etsy: 'https://www.etsy.com/MATHIEKNITS/'
+			},
+
+			{	name: 'LYRETAIL',
+				productImage: './img/mittens/sold/lyretail.jpg',
+				materials: 'Wildling & Kitten',
+			},	
+
+			{	name: 'MARS',
+				productImage: './img/mittens/sold/mars.jpg',
+				materials: 'Life On Mars & Superb',
+			},	
+
+			{	name: 'PRAIRIE',
+				productImage: './img/mittens/sold/prairie.jpg',
+				materials: 'Thyme & Librarians Dream',
+			},
+
+
+			{	name: 'ARBOREAL',
+				productImage: './img/mittens/sold/arboreal.jpg',
+				materials: 'Joshua Tree & W. Willow',
+			},
+
+			{	name: 'CINNABAR',
+				productImage: './img/mittens/sold/cinnabar2.jpg',
+				materials: 'Cinnamon Dolce & Superb',
+			},
+
+			{	name: 'RHIZOME',
+				productImage: './img/mittens/sold/rhizome.jpg',
+				materials: 'Kitten & Leo',
+			},
+
+			{	name: 'RIPARIAN',
+				productImage: './img/mittens/sold/riparian.jpg',
+				materials: 'Peat & Misfortune',
+			},	
+
+			{	name: 'SANDHILL',
+				productImage: './img/mittens/sold/sandhill.jpg',
+				materials: 'TinyHouse & Antique Lace',
+			},
+
+			{	name: 'TIDAL WAVE',
+				productImage: './img/mittens/sold/tidalwave.jpg',
+				materials: 'Arch & Kitten',
+			},	
+
 			{	name: 'COASTAL',
 				productImage: './img/mittens/sold/coastal.jpg',
 				brand: 'MADELINETOSH',
@@ -27,7 +150,7 @@ const app = new Vue ({
 			{	name: 'FLYING FOX',
 				productImage: './img/mittens/sold/flyingfox.jpg',
 				brand: 'MADELINETOSH',
-				materials: 'WhiskeyB & Tiny House',
+				materials: 'WhiskeyB & TinyHouse',
 			},
 
 			{	name: 'GLACIER',
@@ -75,19 +198,19 @@ const app = new Vue ({
 			{	name: 'SHORELINE',
 				productImage: './img/mittens/sold/shoreline.jpg',
 				brand: 'MADELINETOSH',
-				materials: 'AntiuqueLace & Arch',
+				materials: 'Antique Lace & Arch',
 			},
 
 			{	name: 'SANDSTONE',
 				productImage: './img/mittens/sold/sandstone.jpg',
 				brand: 'MADELINETOSH',
-				materials: 'Tiny House & Canvas Tent',
+				materials: 'TinyHouse & Canvas Tent',
 			},
 
 			{	name: 'TETON',
 				productImage: './img/mittens/sold/teton.jpg',
 				brand: 'MADELINETOSH',
-				materials: 'Tripwire & Kenobi',
+				materials: 'TripWire & Kenobi',
 			},
 
 			{	name: 'TUNDRA',

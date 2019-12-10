@@ -12,6 +12,84 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'ANDROMEDA',
+				productImage: './img/hats/sold/andromeda.jpg',
+				materials: 'Fair Isle Sweater',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'SPRUCE',
+				productImage: './img/hats/sold/spruce.jpg',
+				materials: 'Boomslang',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'BENTHIC',
+				productImage: './img/hats/sold/benthic.jpg',
+				materials: 'Misfortune',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'CARDINAL',
+				productImage: './img/hats/sold/cardinal2.jpg',
+				materials: 'The Red Woman',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'GINGER',
+				productImage: './img/hats/sold/ginger2.jpg',
+				materials: 'Carbon Dating',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'DAHLIA',
+				productImage: './img/hats/sold/dahlia.jpg',
+				materials: 'Tsing Tsing Pepper',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'ELEMENT',
+				productImage: './img/hats/sold/element2.jpg',
+				materials: 'Bluesteau',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'SUCCULENT',
+				productImage: './img/hats/sold/succulent.jpg',
+				materials: 'WHOMPING WILLOW',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'SPRUCE',
+				productImage: './img/hats/sold/spruce.jpg',
+				materials: 'Boomslang',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'GINSENG',
+				productImage: './img/hats/sold/ginseng.jpg',
+				materials: 'Librarians Dream',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'GYPSUM',
+				productImage: './img/hats/sold/gypsum.jpg',
+				materials: 'TripWire & Antler',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'WOODLAND',
+				productImage: './img/hats/sold/woodland.jpg',
+				materials: 'Woodstock',
+				brand: 'MADELINETOSH',
+			},
+
+			{	name: 'ZION',
+				productImage: './img/hats/sold/zion.jpg',
+				materials: 'Arya',
+				brand: 'MADELINETOSH',
+			},
+
 			{	name: 'CAMBRIAN',
 				productImage: './img/hats/sold/cambrian.jpg',
 				brand: 'MADELINETOSH',
@@ -27,7 +105,7 @@ const app = new Vue ({
 			{	name: 'CARDINAL',
 				productImage: './img/hats/sold/cardinal.jpg',
 				brand: 'MADELINETOSH',
-				materials: 'Cardinal',
+				materials: 'The Red Woman',
 			},
 
 			{	name: 'ELEMENT',
