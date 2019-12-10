@@ -9,6 +9,10 @@ a:hover {
 	color: darkgoldenrod;
 }
 
+#shipping {
+	color: firebrick;
+}
+
 /*--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--*/
 h1 {
 	letter-spacing: 3px;
@@ -296,9 +300,9 @@ h4 {
 
 
 #nA1 { background: url("./img/nasagebrush.jpg");}
-#nA2 { background: url("./img/nahoneybadger.jpg");}
-#nA3 { background: url("./img/naandromeda.jpg");}
-#nA4 { background: url("./img/nariparian.jpg");}
+#nA2 { background: url("./img/naarboreal.jpg");}
+#nA3 { background: url("./img/naorchid.jpg");}
+#nA4 { background: url("./img/nasequoia.jpg");}
 
 
 @media only screen and (min-width: 500px) {

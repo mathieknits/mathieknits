@@ -8,6 +8,10 @@ a { text-decoration: none !important; }
 	overflow-x: hidden;
 	 }
 
+#shipping {
+ 	color: firebrick;
+}
+
 /*--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--HEADER STYLES--*/
 h1 {
 	letter-spacing: 3px;
