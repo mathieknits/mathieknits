@@ -15,7 +15,7 @@ const app = new Vue ({
 	el: '#hatApp',
 	data: {
 		name: 'placeholder',
-		price: '$65',
+		price: '$62',
 		descript: descript,
 		size: size,
 		productImage: productImage,

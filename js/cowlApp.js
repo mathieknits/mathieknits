@@ -10,8 +10,6 @@ descript= 'Keep your neck super warm & stylish with these unique herringbone cow
 size= 'SIZE: Small/Medium. Appropriate for all women & teenagers.';
 care= 'CARE: Gently hand wash in cold water ONLY and lay flat to dry if needed. All items are constructed in a smoke free environment, and stored properly to maintain their high quality.';
 
-
-
 const app = new Vue ({
 	el: '#cowlApp',
 	data: {
@@ -38,7 +36,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/cinnabarc.jpg',
 				materials: 'Cinnamon Dolce & The Red Woman',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760840969/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995510966',
-				price: '$95',
+				price: '$88',
 			},	
 
 			{	name: 'WINTERBERRY',
@@ -48,7 +46,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/winterberryc.jpg',
 				materials: 'Saffron & TinyHouse',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643132435/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995526262',
-				price: '$85',
+				price: '$82',
 			},	
 
 			{	name: 'LUNAR',
@@ -58,7 +56,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/lunarc.jpg',
 				materials: 'Harvest & Canvas Tent',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/660325833/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995546302',
-				price: '$85',
+				price: '$82',
 			},
 
 			{	name: 'HONEY',
@@ -68,7 +66,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/honeyc.jpg',
 				materials: 'Librarians Dream & Carbon Dating',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760842341/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995558387',
-				price: '$95',
+				price: '$88',
 			},	
 
 			{	name: 'ECHEVERIA',
@@ -78,7 +76,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/echeveriac.jpg',
 				materials: 'Thyme & Forest Floor',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746965688/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995571208',
-				price: '$95',
+				price: '$88',
 			},
 
 			{	name: 'SEAFOAM',
@@ -88,7 +86,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/seafoamc.jpg',
 				materials: 'Venti Dragon Mocha & Thyme',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746967842/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995584927',
-				price: '$95',
+				price: '$88',
 			},	
 
 			{	name: 'ARBOREAL',
@@ -98,7 +96,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/arborealc.jpg',
 				materials: 'Joshua Tree & Whomping Willow',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760839179/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995596258',
-				price: '$95',
+				price: '$88',
 			},		
 
 			{	name: 'OCEANIC',
@@ -108,7 +106,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/oceanicc.jpg',
 				materials: 'Arch & Sabine',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/660329573/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995614476',
-				price: '$85',
+				price: '$82',
 			},
 
 			{	name: 'AERIAL',
@@ -118,7 +116,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/aerialc.jpg',
 				materials: 'Arch & Antique Lace',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629298084/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995632469',
-				price: '$85',
+				price: '$82',
 			},
 
 			{	name: 'MULBERRY',
@@ -128,7 +126,7 @@ const app = new Vue ({
 				productImageD: './img/cowls/thum/mulberryc.jpg',
 				materials: 'Smokey Orchid & Forest Floor',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746967212/herringbone-cowl-scarf-fringe-neck?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995645688',
-				price: '$95',
+				price: '$88',
 			}	
 
 				]

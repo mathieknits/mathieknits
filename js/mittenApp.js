@@ -14,7 +14,7 @@ const app = new Vue ({
 	el: '#mittenApp',
 	data: {
 		name: 'placeholder',
-		price: '$52',
+		price: '$48',
 		descript: descript,
 		size: size,
 		productImage: productImage,
