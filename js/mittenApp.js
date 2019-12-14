@@ -74,15 +74,6 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629273820/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995101153'
 			},
 
-			{	name: 'HONEY',
-				productImage: './img/mittens/honey.jpg',
-				productImageB: './img/mittens/thum/honeyb.jpg',
-				productImageC: './img/mittens/thum/honeyc.jpg',
-				productImageD: './img/mittens/thum/honeyd.jpg',
-				materials: 'Librarians Dream & Carbon Dating',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760819547/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995122708'
-			},	
-
 			{	name: 'ECLIPSE',
 				productImage: './img/mittens/eclipse.jpg',
 				productImageB: './img/mittens/thum/eclipseb.jpg',
@@ -153,15 +144,6 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/mulberryd.jpg',
 				materials: 'Smokey Orchid & Forest Floor',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760820869/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995252272'
-			},	
-
-			{	name: 'SAGEBRUSH',
-				productImage: './img/mittens/sagebrush.jpg',
-				productImageB: './img/mittens/thum/sagebrushb.jpg',
-				productImageC: './img/mittens/thum/sagebrushc.jpg',
-				productImageD: './img/mittens/thum/sagebrushd.jpg',
-				materials: 'Boxwood & Fair Isle',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746945174/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995265714'
 			},	
 
 			{	name: 'WILLOW',

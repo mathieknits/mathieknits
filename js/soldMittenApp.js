@@ -12,6 +12,16 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'SAGEBRUSH',
+				productImage: './img/mittens/sold/sagebrush.jpg',
+				materials: 'Boxwood & Fair Isle',
+			},	
+
+			{	name: 'HONEY',
+				productImage: './img/mittens/sold/honey.jpg',
+				materials: 'Librarians Dream & Carbon Dating',
+			},		
+
 			{	name: 'ARBOREAL',
 				productImage: './img/mittens/sold/arboreal.jpg',
 				materials: 'Joshua Tree & W. Willow',
