@@ -12,6 +12,11 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'AUTUMN',
+				productImage: './img/mittens/sold/autumn.jpg',
+				materials: 'Saffron & Peat',
+			},
+
 			{	name: 'SAGEBRUSH',
 				productImage: './img/mittens/sold/sagebrush.jpg',
 				materials: 'Boxwood & Fair Isle',

@@ -28,16 +28,6 @@ const app = new Vue ({
 		care: care,
 
 		items: [
-
-			{	name: 'AUTUMN',
-				productImage: './img/mittens/autumn.jpg',
-				productImageB: './img/mittens/thum/autumnb.jpg',
-				productImageC: './img/mittens/thum/autumnc.jpg',
-				productImageD: './img/mittens/thum/autumnd.jpg',
-				materials: 'Saffron & Peat',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643097917/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995001501'
-			},
-
 			{	name: 'MONARCH',
 				productImage: './img/mittens/monarch.jpg',
 				productImageB: './img/mittens/thum/monarchb.jpg',

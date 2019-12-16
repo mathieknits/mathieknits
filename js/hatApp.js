@@ -66,15 +66,6 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746960556/winter-hat-herringbone-hat-beanie?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995773362'
 			},
 
-			{	name: 'VOLCANIC',
-				productImage: './img/hats/volcanic.jpg',
-				productImageB: './img/hats/thum/volcanicb.jpg',
-				productImageC: './img/hats/thum/volcanicc.jpg',
-				productImageD: './img/hats/thum/volcanicd.jpg',
-				materials: 'TChalla',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746962086/winter-hat-herringbone-hat-beanie?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995786995'
-			},
-
 			{	name: 'FOSSIL',
 				productImage: './img/hats/fossil.jpg',
 				productImageB: './img/hats/thum/fossilb.jpg',

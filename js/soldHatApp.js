@@ -12,6 +12,11 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'VOLCANIC',
+				productImage: './img/hats/sold/volcanic.jpg',
+				materials: 'TChalla',
+			},
+
 			{	name: 'ANDROMEDA',
 				productImage: './img/hats/sold/andromeda.jpg',
 				materials: 'Fair Isle Sweater',
