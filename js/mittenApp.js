@@ -28,14 +28,6 @@ const app = new Vue ({
 		care: care,
 
 		items: [
-			{	name: 'MONARCH',
-				productImage: './img/mittens/monarch.jpg',
-				productImageB: './img/mittens/thum/monarchb.jpg',
-				productImageC: './img/mittens/thum/monarchc.jpg',
-				productImageD: './img/mittens/thum/monarchd.jpg',
-				materials: 'Cinnamon Dolce & Peat',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746943746/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995019770'
-			},	
 
 			{	name: 'REDWOOD',
 				productImage: './img/mittens/redwood.jpg',
@@ -44,15 +36,6 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/redwoodd.jpg',
 				materials: 'Saffron & Brick Dust',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643110481/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995044912'	
-			},	
-
-			{	name: 'SEQUOIA',
-				productImage: './img/mittens/sequoia.jpg',
-				productImageB: './img/mittens/thum/sequoiab.jpg',
-				productImageC: './img/mittens/thum/sequoiac.jpg',
-				productImageD: './img/mittens/thum/sequoiad.jpg',
-				materials: 'Carbon Dating & Fair Isle Sweater',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760832051/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995082201'
 			},	
 
 			{	name: 'GRIZZLY BEAR',

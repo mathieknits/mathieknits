@@ -12,6 +12,26 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+			{	name: 'ESTUARY',
+				productImage: './img/mittens/sold/estuary.jpg',
+				materials: 'Snake & Misfortune',
+			},
+
+			{	name: 'SEAFOAM',
+				productImage: './img/mittens/sold/seafoam.jpg',
+				materials: 'Venti Dragon Moch & Thyme',
+			},
+
+			{	name: 'SEQUOIA',
+				productImage: './img/mittens/sold/sequoia.jpg',
+				materials: 'Carbon Dating & Fair Isle Sweater',
+			},	
+
+			{	name: 'MONARCH',
+				productImage: './img/mittens/sold/monarch.jpg',
+				materials: 'Cinnamon Dolce & Peat',
+			}
+
 			{	name: 'AUTUMN',
 				productImage: './img/mittens/sold/autumn.jpg',
 				materials: 'Saffron & Peat',
