@@ -30,7 +30,7 @@ const app = new Vue ({
 			{	name: 'MONARCH',
 				productImage: './img/mittens/sold/monarch.jpg',
 				materials: 'Cinnamon Dolce & Peat',
-			}
+			},
 
 			{	name: 'AUTUMN',
 				productImage: './img/mittens/sold/autumn.jpg',
