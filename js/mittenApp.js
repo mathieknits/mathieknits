@@ -29,15 +29,6 @@ const app = new Vue ({
 
 		items: [
 
-			{	name: 'REDWOOD',
-				productImage: './img/mittens/redwood.jpg',
-				productImageB: './img/mittens/thum/redwoodb.jpg',
-				productImageC: './img/mittens/thum/redwoodc.jpg',
-				productImageD: './img/mittens/thum/redwoodd.jpg',
-				materials: 'Saffron & Brick Dust',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/643110481/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995044912'	
-			},	
-
 			{	name: 'GRIZZLY BEAR',
 				productImage: './img/mittens/grizzlybear.jpg',
 				productImageB: './img/mittens/thum/grizzlybearb.jpg',
@@ -56,15 +47,6 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/629271016/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995140444'
 			},
 
-			{	name: 'SEAFOAM',
-				productImage: './img/mittens/seafoam.jpg',
-				productImageB: './img/mittens/thum/seafoamb.jpg',
-				productImageC: './img/mittens/thum/seafoamc.jpg',
-				productImageD: './img/mittens/thum/seafoamd.jpg',
-				materials: 'Venti Dragon Moch & Thyme',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746945806/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995393176'
-			},
-
 			{	name: 'ECHEVERIA',
 				productImage: './img/mittens/echeveria.jpg',
 				productImageB: './img/mittens/thum/echeveriab.jpg',
@@ -72,15 +54,6 @@ const app = new Vue ({
 				productImageD: './img/mittens/thum/echeveriad.jpg',
 				materials: 'Thyme & Forest Floor',
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/746940322/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995171867'
-			},
-
-			{	name: 'DUSK',
-				productImage: './img/mittens/dusk.jpg',
-				productImageB: './img/mittens/thum/duskb.jpg',
-				productImageC: './img/mittens/thum/duskc.jpg',
-				productImageD: './img/mittens/thum/duskc.jpg',
-				materials: 'Boxwood & Forest Floor',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760815699/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995187869'
 			},		
 
 			{	name: 'TOKAY',

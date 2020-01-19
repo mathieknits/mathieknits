@@ -12,6 +12,22 @@ const app = new Vue ({
 		materials: materials,
 
 		items: [
+
+			{	name: 'REDWOOD',
+				productImage: './img/mittens/sold/redwood.jpg',
+				materials: 'Saffron & Brick Dust',
+			},	
+
+			{	name: 'SEAFOAM',
+				productImage: './img/mittens/sold/seafoam.jpg',
+				materials: 'Venti Dragon Moch & Thyme',
+			},
+
+			{	name: 'DUSK',
+				productImage: './img/mittens/sold/dusk.jpg',
+				materials: 'Boxwood & Forest Floor',
+			},
+
 			{	name: 'ESTUARY',
 				productImage: './img/mittens/sold/estuary.jpg',
 				materials: 'Snake & Misfortune',
