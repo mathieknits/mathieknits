@@ -83,15 +83,6 @@ const app = new Vue ({
 				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760817799/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995235947'
 			},	
 
-			{	name: 'MULBERRY',
-				productImage: './img/mittens/mulberry.jpg',
-				productImageB: './img/mittens/thum/mulberryb.jpg',
-				productImageC: './img/mittens/thum/mulberryc.jpg',
-				productImageD: './img/mittens/thum/mulberryd.jpg',
-				materials: 'Smokey Orchid & Forest Floor',
-				etsy: 'https://www.etsy.com/MATHIEKNITS/listing/760820869/fingerless-gloves-fingerless-mittens?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1575995252272'
-			},	
-
 			{	name: 'WILLOW',
 				productImage: './img/mittens/willow.jpg',
 				productImageB: './img/mittens/thum/willowb.jpg',

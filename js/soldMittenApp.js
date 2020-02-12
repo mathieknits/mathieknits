@@ -13,6 +13,11 @@ const app = new Vue ({
 
 		items: [
 
+			{	name: 'MULBERRY',
+				productImage: './img/mittens/sold/mulberry.jpg',
+				materials: 'Smokey Orchid & Forest Floor',
+			},	
+
 			{	name: 'REDWOOD',
 				productImage: './img/mittens/sold/redwood.jpg',
 				materials: 'Saffron & Brick Dust',
