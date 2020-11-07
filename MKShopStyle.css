@@ -907,3 +907,8 @@ nav ul#social-media > li {
     display: inline-block;
     margin: 0.5em;
 }
+
+
+#mittenApp, #hatApp, #cowlApp {
+	display: none;
+}
